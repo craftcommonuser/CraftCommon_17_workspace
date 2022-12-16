@@ -1,2 +1,1 @@
-I have initiated the app development. Please take a look at this first phase and let me know your opinion
-best,
+This is the up to date development for the application. Please review and comment on the neccessary adjustments if required.
