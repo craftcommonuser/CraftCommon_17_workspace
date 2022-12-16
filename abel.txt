@@ -1,1 +1,1 @@
-done
+Found some errors on the development and corrected it
