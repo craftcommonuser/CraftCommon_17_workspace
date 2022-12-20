@@ -1,1 +1,9 @@
+<<<<<<< Updated upstream
 Hello team
+=======
+<<<<<<< HEAD
+Hello Team
+=======
+Hello team
+>>>>>>> main
+>>>>>>> Stashed changes
