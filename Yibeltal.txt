@@ -4,3 +4,4 @@ Just checkout
 what is version control
 practising
 git disktope
+git disktiop or git comand
