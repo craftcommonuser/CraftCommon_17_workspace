@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author yohan
+ *
+ */
+module javasample {
+}
