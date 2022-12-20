@@ -1,16 +1,6 @@
-Done.
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-exercise 1. kidistw
-=======
->>>>>>> Stashed changes
+
 exercise 1. 
 kidistw 
 adding a new text
 new exercise
 
-<<<<<<< Updated upstream
-=======
->>>>>>> main
->>>>>>> Stashed changes
