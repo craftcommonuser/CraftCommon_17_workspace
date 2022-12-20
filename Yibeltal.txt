@@ -1,6 +1,6 @@
 git practice to be done
- kep triyng is the tool for  success
-Just checkout
-what is version control
+kep triyng is the tool for  success
+Just checkoutwhat is version control
 practising
 git disktop
+git pull
