@@ -1,1 +1,9 @@
+<<<<<<< Updated upstream
 excercise is done today
+=======
+<<<<<<< HEAD
+excercise is done
+=======
+excercise is done today
+>>>>>>> main
+>>>>>>> Stashed changes

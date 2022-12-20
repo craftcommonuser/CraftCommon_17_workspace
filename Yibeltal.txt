@@ -1,5 +1,14 @@
 git practice to be done
  kep triyng is the tool for  success
+<<<<<<< Updated upstream
 Just checkout
 what is version control
 practising
+=======
+<<<<<<< HEAD
+=======
+Just checkout
+what is version control
+practising
+>>>>>>> main
+>>>>>>> Stashed changes
