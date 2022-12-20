@@ -4,3 +4,4 @@ Just checkout
 what is version control
 practising
 git disktope
+which is better git disktop or disk comand
