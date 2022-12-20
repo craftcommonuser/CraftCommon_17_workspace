@@ -3,3 +3,4 @@ git practice to be done
 Just checkout
 what is version control
 practising
+git disktope
