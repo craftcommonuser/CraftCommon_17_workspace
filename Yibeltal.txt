@@ -6,3 +6,5 @@ practising
 git disktope
 which is better git disktop or disk comand
 yibe
+git disktop is better
+git with eclipse
