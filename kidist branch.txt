@@ -1,5 +1,3 @@
-<<<<<<< HEAD
+
 branching exercise.one done
-=======
 another file finally
->>>>>>> 6c6951640b7faae7b4324f24c108b5fe3dce800a
