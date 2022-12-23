@@ -1,3 +1,5 @@
+answers
+
 1. what is Data?
 data is information that has been translated into a form that is efficient for movement or processing.
 
