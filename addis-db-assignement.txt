@@ -1,0 +1,20 @@
+1 facts and statistic collected together for refrence or analysis.
+2 facts learned about something or someone.
+3 a structured set of data held in machine esp on that is accessible in various ways.
+4 a type of database management system that stores data in a row based table structure
+which connects related data elements.
+5 easier to manage, easier to backup, safe and secure, interacts with applications
+6 sql is a programming langauge that used interface with relational data as records in rows and 
+table with logical link between them non sl is a class od db management that are non relational and stored as 
+a document.
+7 mysql, mariadb, oracle db, microsoft sql server, postgre sql
+8 mongo db, apache casandra, redis, apache hbase
+9 sql is a programming language for storing and proccesing info in a relational database.
+10 ddl allows to perform operation on the database like creating, altering or deleting tables and its auto commited.
+   dml is used to manipulate the data stored in the table but not the table
+    and its not autocommited.
+   dcl are commands that gives or takeback access for a data base user.
+   tcl are commands used to manage transaction on the data base.
+11 a table is a collection of related data held in a table format within a database.
+12 a row contains information that describes a single entity, while a coulmn describes a field of information all 
+    entities posses..
