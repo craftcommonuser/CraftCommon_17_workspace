@@ -1,0 +1,48 @@
+1. what is Data?
+data is information that has been translated into a form that is efficient for movement or processing.
+
+2. what is Information?
+s the use of computers to create, process, store, retrieve, and exchange all kinds of data and information
+
+3. what is Database(DB)?
+database is an organized collection of data stored and accessed electronically
+
+4. What is the Relation Database Management System(RDBMS)?
+An RDBMS is a type of database management system (DBMS) that stores data 
+in a row-based table structure which connects related data elements.
+
+5. Define the importance of Relation Database Management System(RDBMS)?
+ the systematic view of raw data helps companies better understand and execute the 
+information while enhancing the decision-making process.
+
+6. As we all know that there are Two types of Database. Relational
+Database(SQL) AND Non-Relational DB(NO sql). what is the difference between
+them.
+ A relational database is structured, meaning the data is organized in tables. Many times, 
+the data within these tables have relationships with one another, or dependencies. 
+A non relational database is document-oriented, meaning, all information gets stored in more of a laundry 
+list order
+
+7. List examples of Relation Database Management System(RDBMS)?
+MySQL,Microsoft SQL Server, and Oracle Database.
+
+
+8. List examples of Non-Relational DB(Nosql)?
+ MongoDB, Apache Cassandra, Redis, Couchbase and Apache HBase.
+
+9. Define and Describe is Structured Query Language(SQL)?
+ Structured query language (SQL) is a programming language for storing and processing information 
+in a relational database.
+
+10. List and Describe each of the different subsets of SQL(Mean DDL, DML,
+DCL, TCL)?
+DDL means data definition language command. Generally we will use these commands to create or modify existing structure of database objects like create, alter, drop or truncate database objects in database
+DML means data manipulation language command. Generally we will use these commands to perform multiple operations like insert, update, retrieve and delete data in database
+DCL means data control language command. Generally we will use these commands to secure database objects by creating roles, permissions using GRANT, REVOKE operations
+TCL means transactional control language command. Generally we will use these commands to perform multiple transactional operations like commit, rollback, save transactions in database.
+11. what is table in Database(DB)?
+Tables are database objects that contain all the data in a database.
+
+12. what is column and Row(tuples) in table?
+A row can be defined as an order in which objects are placed alongside or horizontally. A column can be defined as a vertical division of objects on the basis of category
+I
