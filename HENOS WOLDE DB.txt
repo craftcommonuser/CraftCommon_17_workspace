@@ -1,0 +1,57 @@
+henos_db answers
+
+1. what is data?
+    Data is a raw facts and figures of unproceesed information 
+
+2. what is information?
+      information is a collection of processsed data 
+ 
+3. what is DB?
+     DB is a collection of data that is stored and accessed electronically, they are used to store and manage
+     large amout of data efficiently 
+
+4. what is RDBMS?
+     IT is a software program that allows users to create, manipulate and manage a relational database
+
+5. RDBMS IMPORTANCE
+     Importance of RDBMS include data storage using tables and relationships between data, 
+     make rules and constraints to make sure data is accurate and consistant 
+     provide data security
+     designed to handle large amount of data
+
+6. relational database- stores data in tables which are organized in to rows and columns
+                        -it uses sql as its primary query language  
+
+   non relational database- doesnt store data in a tabular form, instead stores its data in variety of wasys such as documents
+, key value pair, graphs  
+                           - known as noSQl because they do not use SQL as their primary query language 
+
+7. examples of RDBMS
+    -MYSQL
+    -ORACLE
+    -MICROSOFT SQL 
+
+8. EXAMPLES OF NOSQL DATABASE
+      -MONGODB
+      -CASSANDRA
+      -HBASE
+
+9. DEFINE SQL
+     SQL  is a standard programming language used to communicate with RDBMS. 
+     IT IS USED TO CREATE, MODIFY, AND QUERY DATABASES 
+
+10.DDL (DATA DEFINIITION LANGUAGE)- is used to define detabase schema
+                                  - it inlcudes commands such as CREATE, ALTER AND DROP
+   DML (DATA MANIPULATION LANGUAGE)- Is used to manipulate the data stored in databse
+                                   - it includes commands such as SELECT, INSERT, UPDATE, AND DELETE
+   DCL (DATA CONTROL LANGUAGE) - Is used to control access to the data stored in databse
+                               - it includes commands such as GRANT, REVOKE
+   TCL (TRANSACTION CONTROL LANGUAGE) - Is used to manage transaction in a databse
+                                      - includes commands such as COMMIT AND ROLLBACK
+
+11.What is table in DB?
+   - TABLE is a collection of data that is organized into rows and columens.
+   -they are used to store and manage data in structured way
+
+12. column represents an attribute or field of data
+    raw represents a record or an an individual piece of data 
