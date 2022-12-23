@@ -1,2 +1,11 @@
 solve
 I modified this file.
+<<<<<<< Updated upstream
+Hello 
+=======
+<<<<<<< HEAD
+
+=======
+Hello 
+>>>>>>> main
+>>>>>>> Stashed changes
