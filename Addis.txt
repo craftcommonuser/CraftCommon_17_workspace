@@ -1,3 +1,0 @@
-<<<<<<< Updated upstream
-myfile working
-
