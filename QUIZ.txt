@@ -1,0 +1,62 @@
+
+
+QUIZ 
+
+1. what is Data?
+
+
+Data can come in the form of text, observations, figures, images, numbers, graphs, or symbols. For example, data might include individual prices, weights, addresses, ages, names, temperatures, dates, or distances. Data is a raw form of knowledge and, on its own, doesn't carry any significance or purpose.
+
+
+2. what is Information?
+
+Information is a set of data which is processed in a meaningful way according to the given requirement. Information is processed, structured, or presented in a given context to make it meaningful and useful. It is processed data which includes data that possess context, relevance, and purpose. It also involves manipulation of raw data.
+
+3. what is Database(DB)?
+
+Database is the systematic collection of related datas that represent real world entities.
+
+4. What is the Relation Database Management System(RDBMS)?
+
+An RDMBS is a software application that interacts with users, applications as well as with the database itself to capture and analyze data.
+
+5. Define the importance of Relation Database Management System(RDBMS)?
+
+RDMBS makes it easier for us to store and manage large amounts of Information, handles security, manages and stores our backups, handles concurrency as well as it interacts with the system applications.
+
+
+6. As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+
+The main difference between the two types of database types is the way they store our information. Relational database stores our data and Information as a table while non-relational database saves and stores our data as a document.
+
+
+7. List examples of Relation Database Management System(RDBMS)?
+  
+     1. MySQL 2. Microsoft SQL server 3. PostgreSQL 4. IBM Db2 5. MariaDB
+
+8. List examples of Non-Relational DB(Nosql)?
+  
+      1. MongoDB 2. Apache Cassandra 3. Redis 4. Couch base 5. Apache Hbase
+
+9. Define and Describe is Structured Query Language(SQL)?
+
+SQL is the core of relational database which is used for accessing and managing the database.
+
+10. List and Describe each of the different subsets of SQL(Mean DDL, DML,DCL, TCL)?
+
+A. DDL: DDL allows us to perform various operations on the database. It is auto-committed which means changes made using DDL are permanent and can't be reversed. It also makes changes on the structure of the table using commands like create, alter, truncate, rename and drop.
+
+B. DML: DML are used to manipulate the data stored in the table  and not the table. It allows us to access and manipulate data using commands like insert, update delete and select. DML command are not auto committed and can be reversed.
+
+C. DCL: DCL commands helps us to grant and revoke access and authority from any database user. 
+
+D. TCL; TCL commands are used to manage transactions in the database using commands like rollback, commit, save point and set transaction.  These are used to manage the changes made to the data in a table by DML statements. 
+
+11. what is table in Database(DB)?
+
+A table is a collection of related data held in a table format within a database. It consists of columns and rows. In relational databases, and flat file databases, a table is a set of data elements (values) using a model of vertical columns (identifiable by name) and horizontal rows, the cell being the unit where a row and column intersect. A table has a specified number of columns, but can have any number of rows
+
+12. what is column and Row(tuples) in table?
+
+Rows and columns are the manner of arranging things either vertically or horizontally. Rows are arranged horizontally, from left to right, while columns are arranged vertically, from top to bottom. A tuple in a database management system is essentially a row with linked data about a certain entity (it can be any object). This information is dispersed across several columns with different qualities like name, age, gender, markings, etc. As RDBMS utilizes the relational model, tuples are typically seen in relational database management systems (RDBMS) (Tabular format).
+
