@@ -1,0 +1,25 @@
+Answers
+
+1. Data is any factual text, image, or video that can be recorded.
+2. Information is a structred or orginized data
+3. Database is a container or a storage of organized data and also allows us to manipulate that data. 
+4. Relational Database Managment System is part of the databse that helps us to interact with the data.
+5. It allows us to store, access and create a modification on a data table. 
+6. Relational database stores data in a form of a table with rows and columns. It also may have primary and foreign keys. 
+   where as, Non-relational database system uses a storage model designed for a specific requiremnt of the type of data 
+    we want to store. It doesn't require a table or primary key. Relational database system uses SQL based language
+7. Oracle database, Mircosoft SQL server, MySQL
+8. MongoDB, Apache CAssandra, Redis
+9. SQL is a standardized query language for Relational database management systems and allows us to access and manage a database.
+   We can define, manipulate, and control data within a database.
+10. DDL (Data defenition Language)--Create, Alter, Drop, Truncate(delete)
+    DML (Data manipulation Lang) --select, update, insert, delete
+    DCL (Data control Lang) -- security, access (grant or revoke)
+    TCL (Data transaction lang)--Excution, commit, begin transaction, rollback
+11. A table a set of rows and columns we used to orginize or data
+12. Tuple is a row in an SQL table and contains a number of attributes or columns of data that indicate 
+    a specific character of the object being described.
+
+
+
+   
