@@ -1,0 +1,59 @@
+1.       what is Data?
+Data is a fact that can be recorded. It may be a text, number, Videos or images. Data are basic facts or values. If they have more context, they are more valuable.
+
+2.       what is Information?
+Information: helps us answer questions. In order to do this, data must be organized or processed in a helpful manner.
+
+3.      what is Database(DB)?
+A database is a container for data—for example, a library stores books. We could say that a library is a database for books. Databases are computer structures that save, the organization protects, and deliver data. 
+4.      What is the Relation Database Management System(RDBMS)?	
+	A relational database is a database in which the data are stored in tables related to each other. Each table can connect to other tables to bring together different pieces of information. For example, a student database may contain a table for students’ popular activities sign-up patterns and another for individual students. These can be related to show which student patterns.
+	
+5.      Define the importance of a Relation Database Management System(RDBMS)?
+
+A relational database management system (RDBMS) database is a store of information following certain rules. In these databases, information is "relational," which indicates that data comes in connected tables, unlike specific other databases.
+
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+
+SQL databases are ACID compliant. This means that the database follows the properties of Atomicity (a transaction is either fully completed or rolled back), Consistency (all transactions follow database constraints), Isolation (transactions are executed concurrently, but each transaction executes independent of the others),and Durability (a transaction that is completed will be saved to the database as completed). SQL databases use Structured Query Language (SQL) for database transactions. In an SQL database, data is saved in structured relational database tables, and the data types are pre-defined. Examples of SQL databases are: MySQL, Oracle, SQL Server, and PostgrSQL.
+
+NoSQL databases are not necessarily ACID compliant. The data is saved in systems that are not relational database tables, allowing for the flexibility of not having to define data types in advance. The schema is dynamic and unstructured. Data is stored in the form of key-value pairs, documents, wide-column, and graph stores. Query methods different from Structured Query Language are used to perform database transactions. Some examples of NoSQL databases are MongoDB, Apache Cassandra, and Google Cloud BigTable
+
+7. 	List examples of Relation Database Management System(RDBMS)?
+ 
+Relational Database Management Systems, or RDBMS, are the most common database management systems and are characterized by the following:
+•	Multiple users can work on the same data at the same time
+•	Little to no system performance issues
+•	Advanced security for sensitive data to be stored safely
+•	Puts data into columns and rows which create tables through a process called normalization
+Normalization organizes data by breaking it up into the smallest possible parts. For example, instead of putting someone's full name in one cell, normalization asks you to separate the name by first and last which will allow a user to sort and search that data in smaller sections.
+
+
+8.       List examples of Non-Relational DB(Nosql)? 
+
+MongoDB is a non-relational document database that provides support for JSON-like storage
+
+
+9.       Define and Describe is Structured Query Language(SQL)?
+
+SQL is a standardized language used in computer programming to handle databases.
+
+10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+
+The difference between the commands largely has to do with how they are used. DDL commands are used to define and control the database. DML is used to control and manipulate the data. DCL is used for security and access to the database.
+
+DCL in SQL stands for data control language and its commands are administrative powers that allow other users access to the database. TCL stands for transaction control language which commits, or saves, transactions done to the database or data.
+
+11.      what is table in Database(DB)?
+
+A database table consists of rows and columns. A database table is also called a two-dimensional array. An array is like a list of values, and each value is identified by a specific index. A two-dimensional array uses two indices, which correspond to the rows and columns of a table.
+
+12.     what is column and Row(tuples) in table?
+
+A tuple is a single row in a database that contains a single record for such a relation.
+
+
+
+
+To Be Continued…
+
