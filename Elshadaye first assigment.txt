@@ -1,0 +1,39 @@
+1. What is Data?
+•	Data is a collection of unprocessed items and it could be a text, number, videos or images. 
+2. What is Information?
+•	Information is a collection of processed data
+3. What is Database(DB)?
+•	Database is an organized collection of structured information, or data. Typically stored electronically in a computer system.
+4.      What is the Relation Database Management System(RDBMS)?
+•	A relational database management system (RDBMS) is a program used to create, update, and manage relational databases. It interacts with the user, applications and database itself to capture and analyze data. 
+5.      Define the importance of Relation Database Management System(RDBMS)?
+•	Makes it easy to manage large amount of information
+•	Handles security
+•	Backups
+•	Concurrency
+•	Interacts with system applications
+
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+•	A relational database is structured, meaning the data is organized in tables. Many times, the data within these tables have relationships with one another, or dependencies. A non-relational database is document-oriented, meaning, all information gets stored in more of a laundry list order.
+
+7. 	List examples of Relation Database Management System(RDBMS)?
+•	MySQL, PostgreSQL, MariaDB, Microsoft SQL Server, and Oracle Database.
+
+8.       List examples of Non-Relational DB(Nosql)? 
+•	MySQL, PostgreSQL, MariaDB, Microsoft SQL Server, and Oracle Database.
+
+9.       Define and Describe is Structured Query Language(SQL)?
+•	It is the core of a relational database and it is used for accessing and managing a database.
+•	It is mainly used to perform CRUD (create, read, update, and delate) operations. This means by using SQL, you can add, update or delete rows of data, retrieve subsets of information, modify databases and perform many other actions and administrative tasks. 
+
+10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+•	DDL– Data Definition Language allows you to perform various operations on the database. This includes changes to the structure of the table like creation of table, altering table, deleting a table and so on. All DDL commands are auto-committed, meaning changes are saved permanently in the database. 
+•	DML- Data Manipulation Language commands are used to manipulate the data stored in the table and not the table itself. It helps to insert, update, delete, and retrieve data from the database. DML commands are not auto-committed and they can be rolled back.
+•	DCL – Data Control Language are the commands that are used to grant and take back authority from any database user.
+•	TCL- Transaction Control Language commands are used to manage transactions in the database. It also allows statements to be grouped together into logical transactions. Examples include commit, rollback, save point, and set transaction. 
+
+11.      what is table in Database(DB)?
+•	Tables are database objects that contain all the data in a database.
+
+12.     what is column and Row(tuples) in table?
+•	In relational databases, a tuple is one record (one row). The information in a database can be thought of as a spreadsheet, with columns (known as fields or attributes) representing different categories of information, and tuples (rows) representing all the information from each field associated with a single record.
