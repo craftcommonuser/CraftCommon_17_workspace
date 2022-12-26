@@ -1,0 +1,44 @@
+1.Data is a collection of individual facts or statistics and data is un process (raw)
+Data can come in the form of text, observations, figures, images, numbers, graphs, or symbols.
+
+2. Information is the result of analyzing and interpreting pieces of data and information is organized.
+
+3. Database is an organized collection of structured information, or data, typically stored electronically 
+in a computer system.
+ 
+4. The software used to store, manage, query, and retrieve data stored in a relational database is 
+called a relational database management system(RDBMS).
+
+5. RDBMS is the basis for all modern database systems such as MySQL, Microsoft SQL Server, 
+Oracle, and Microsoft Access. RDBMS uses SQL queries to access the data in the database.
+
+6. SQL databases are table-based, while NoSQL databases are document, key-value, graph, or widecolumn stores. SQL databases are better for multi-row transactions, while NoSQL is better for 
+unstructured data like documents.
+
+7. IBM, Oracle, MySQL, Microsoft SQL Server and PostgreSQL.
+
+8. MongoDB, CouchDB, CouchBase, Cassandra, HBase, Redis, Riak, Neo4J. MongoDB.
+
+9.Structured Query Language (SQL) is a standardized programming language that is used to manage 
+relational databases and perform various operations on the data in them.
+SQL is used for 
+ Modifying database table and index structures
+ Adding, updating and deleting rows of data,and
+ Retrieving subsets of information from within relational database management systems . This 
+ information can be used for transaction processing, analytics applications and other applications 
+ that require communicating with a relational database
+10.The Data Manipulation Language (DML), the Data Definition Language (DDL), and the Data 
+Control Language (DCL)
+  a. Data manipulation language (DML) is a computer programming language used for adding, 
+     deleting, and modifying data in a database. 
+  b. Data definition language (DDL) is a subset of SQL. It is a language for describing data and its 
+     relationships in a database.
+  C. data control language is a syntax similar to a computer programming language used to control 
+    access to data stored in a database.
+  D. Transaction Control Language(TCL) commands are basically used for managing and controlling 
+      the transactions in a database to maintain consistency. And it also helps a user manage all the 
+       changes made by the DML commands for maintaining its transactions.
+11.A table is a collection of related data held in a table format within a database. It consists of 
+columns and rows.
+12. A row is a single group of related data within a table. Columns are vertical, and hold a list of 
+values all from the same field. Rows are your horizontal elements in a table.
