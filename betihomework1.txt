@@ -1,0 +1,51 @@
+       Homework answer 
+
+Data refers to individual statistics or facts. 
+
+Information is a data with context, organization, and purpose 
+
+Information that is easy access, management and updating. 
+
+A raw based table structure Wich connects related data elements. 
+
+-Flexibility- updating data is more efficient since the change only need to be made in one place. 
+
+            -  Maintenance- database administration can easily maintain, control and update data in the 
+
+                      Database. 
+
+                               Data-structed the table format used in RDBS is easy to understand and provide an organized and structural manner through which entries are matched by firing queries. 
+
+ 6. SQL – is the programming language used to interface with relational databases.  
+
+        . NOSQL- is a class of DBMs that are non-relational and generally do not use SQL. 
+
+      7. IBM, Oracle, MySQL, Microsoft SQL server etc. 
+
+ 8. -MongoDB, Apache Cassandra, Redis, Couchbase and Apache HBase. Non- relational databases is the best selection for flexible data storage with little to no structure limitations.  
+
+9. - a programing language designed to get information out of and put into a relational database. 
+
+ 10. SQL- commands Select, update, delete, insert in to create database, altera database, create table  
+
+        . DDL- truncate to delete data, drop, Rename.  
+
+         . DML- data manipulation language we can easily access store, modify, update, and delete existing records from database using DML commands.  
+
+ 11. Tables are database objects that contain all the data in a database. In tables data is logically organized in row – and –column format similar to spreadsheet. 
+
+  12. Both representing different categories of information. The rows represent records and the columns represent attributes. 
+
+ 
+
+                 
+
+ 
+
+               
+
+                 
+
+  
+
+ 
