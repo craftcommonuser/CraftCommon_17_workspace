@@ -20,6 +20,7 @@ public class Example1_Bekelelf {
 		System.out.println("print something");
 		System.out.println("print something");
 		System.out.println("print something");
+		System.out.print(args);
 	}
 
 }
