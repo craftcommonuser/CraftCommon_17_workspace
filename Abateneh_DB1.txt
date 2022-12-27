@@ -1,4 +1,4 @@
-Course Database 
+Course Database (DB)
 Short Answer 
 Student Name Abateneh M Wahidi
 
