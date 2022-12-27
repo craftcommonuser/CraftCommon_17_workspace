@@ -1,5 +1,3 @@
-                             Database
-
 1.Data is a collection of individual facts or statistics and data is un process (raw)
 Data can come in the form of text, observations, figures, images, numbers, graphs, or symbols.
 
