@@ -1,0 +1,27 @@
+Short Answer
+
+1. what is Data? A data is distinct piece of information about an object.
+
+2. what is Information? 
+
+3. what is Database(DB)?
+
+4. What is the Relation Database Management System(RDBMS)?
+
+5. Define the importance of Relation Database Management System(RDBMS)?
+
+6. As we all know that there are Two types of Database. Relational
+Database(SQL) AND Non-Relational DB(NO sql). what is the difference between
+them.
+
+7. List examples of Relation Database Management System(RDBMS)?
+
+8. List examples of Non-Relational DB(Nosql)?
+
+9. Define and Describe is Structured Query Language(SQL)?
+
+10. List and Describe each of the different subsets of SQL(Mean DDL, DML,
+DCL, TCL)?
+11. what is table in Database(DB)?
+
+12. what is column and Row(tuples) in table?
