@@ -1,0 +1,42 @@
+1. What is Data?
+   It is raw fact that can be recorded as a text, number, figure, image etc
+   It is a distinct piece of information about an object.
+
+2. What is Information?
+   Information is a processed data. 
+
+3. What is Database (DB)? 
+   A big container that contains a large data. It is an organized collection of structured information. 
+ 
+4. What is the Relation Database Management System (RDBMS)?
+   It is a software system that help us to create, update, and administer a relational database management system.
+
+5. Define the importance of Relation Database Management System(RDBMS)?
+   It is the bases for all modern databases system like MySQL, Microsoft SQL server etc  
+
+6. As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them. 
+   SQL database are table-based, while NoSQL database are document based.
+
+7. List examples of Relation Database Management System(RDBMS)?
+   Oracle, IBM, MySQL, Microsoft SQL server
+
+8. List examples of Non-Relational DB(Nosql)? 
+   Mongodb, neo4J, Redis, Cassandra, HBase 
+
+9. Define and Describe is Structured Query Language(SQL)?
+   Is a standardize programming language that is used to manage relational database. 
+   It is mainly used to perform various actions like add, update rows/delete rows of data, retrieve subsets of information etc  
+
+10. List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+    DDL is a language for describing data and its relation database. 
+    DML is a computer programming language used for adding, modifying, deleting data in database. 
+    DCL is a syntax like a computer programming language used to control access to data stored in a database. 
+    TCL commands are basically used for managing and controlling the transactions in a database to maintain consistency. 
+    It helps a user manage all the changes made by the DML commands for maintaining its transactions. 
+
+11. What is table in Database(DB)? 
+    A database table is a collection of related data held in a table format. It is consists of column and rows.
+
+12. What is column and Row(tuples) in table?
+    A column is a vertical element that hold values of the same field and a row is a horizontal element in the table. 
+
