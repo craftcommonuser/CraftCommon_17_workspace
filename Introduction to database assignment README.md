@@ -1,4 +1,4 @@
-# CraftCommon_17_workspace 
+# Introduction to Database Quiz
 1.	What is Data?
 2.	What is Information?
 3.	What is Database (DB)?
