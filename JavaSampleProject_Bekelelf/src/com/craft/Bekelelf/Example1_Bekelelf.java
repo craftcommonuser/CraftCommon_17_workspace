@@ -23,7 +23,8 @@ public class Example1_Bekelelf {
 		System.out.print(args);
 		System.out.print(args);
 		System.out.print(args);
-		
+		System.out.print(args);
+		System.out.print(args);
 		System.out.print(args);
 	}
 
