@@ -1,0 +1,45 @@
+1  what is Data?
+         statistics it is raw and unprocessed 
+2 what is Information?
+          when data is processed .
+           ” record is also information “.
+3what is Database(DB)?
+             is an organized collection of data. 
+              More specifically, a database is an electronic system that allows data to be easily accessed,
+               manipulated and updated.
+4 What is the Relation Database Management System(RDBMS)?
+                 is a database that stores information in the form of tables called relations
+ 5  Define the importance of Relation Database Management System(RDBMS)?
+               because it manages data efficiently and allows users to perform multiple tasks with ease.and
+                 we stores, organizes and manages a large amount of information 
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). 
+    what is the difference between them
+                        is the way that data is stored. Relational databases use tables to store data,
+                       while non-relational databases use a hierarchical structure.
+7. 	List examples of Relation Database Management System(RDBMS)?
+                    MySQL ,Microsoft Access,H2 Database Engine ,Oracle Database.....
+8.       List examples of Non-Relational DB(Nosql)? 
+                        MongoDB, CouchDB,  Amazon Neptune
+9.       Define and Describe is Structured Query Language(SQL)?
+                     SQL is Structured Query Language
+                     which is a computer language for storing, manipulating and retrieving data stored in a relational database.
+10      List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+                       Data Definition Language the structure of the table like creating a table, deleting a table, altering a table
+                      Data Manipulation Language commands are used to modify the database. It is responsible for all form of changes in the database.
+                     Data Control Language commands are used to grant and take back authority from any database user.
+                      Transaction Control Language  it used  permanently save any transaction into the database. ( managing transactions )
+11      what is table in Database(DB)?
+                      consist of rows and columns
+12    12.     what is column and Row(tuples) in table?
+                   Columns run vertically. They contain the definition of each field.
+                     Rows run horizontally. They represent each record. 
+
+
+
+
+
+
+
+
+
+
