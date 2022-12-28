@@ -1,0 +1,20 @@
+1,Data is a facts that can be recorded.it maybe atext,number,video,image ...
+2,Information is a collection of proccessed data.
+3,Database is a place that large amount of data stored in, data typically stored in a computer system.
+4,RDBMS is a common type of database that stores data in tables,so it can be used in relation to other stored dataset.
+5,RDBMS IMPORTANCE, easily management of huge data stored, back ups 
+6,relational database is structured,meaning the data is organiged in tables.manytimes the data with in these tables have 
+relationships with one another,or dependencies. A Non-Relational database is document-oreinted,meaning all information gets 
+stored in more of alaundary list order.
+7,RDB examaple, SQL
+8,NON-RDB example, MongoDB,Apache cassabdra
+9,SQL is the core of relational database which is used for accessing and managing the database.
+10,subset of SQL, (DDL,DML,DCL,TCL)
+     DDL:data definition language, it allows you to perform various operation on the database. its auto commited.
+     DML:data manipulation language,used for manipulating the data stored in the table and not table itself.not auto commited.
+     DCL:data control language, are the command to grant & take back authority from any database user.
+     TCL:transaction control language,used to manage transaction in the database.
+11,tables are database objects that contain all the data in a database.
+12,row is a horizontal alignment of data, contains information that describe a single entity.
+   column is describes a field of information all entities possess.;;
+
