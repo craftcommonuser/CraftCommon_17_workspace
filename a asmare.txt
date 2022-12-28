@@ -24,4 +24,4 @@ Tcl: transaction control language uses to manage changes that's made by dml.
 It’s a collection of columns and rows.
 12. what is column and Row(tuples) in table?
 row contains information that describes a single entity while data in a column
-describes a field of information all entities possess.
+describes a field of information all entities possess.'
