@@ -1,0 +1,106 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Database 
+
+Lab Guide
+
+
+Short Answer
+
+
+ 1.     what is Data?
+
+* data is information (fact) of object that can be recorded.d
+
+
+2.       what is Information?
+
+*information is a type of data that is specific
+
+
+
+3.      what is Database(DB)?
+
+
+*database is a place that you can store data (systematicaly collacts related  data)
+
+ 
+4.      What is the Relation Database Management System(RDBMS)?
+
+
+*RDBMS used to store,manage query and retrive data stored inrelational databese
+
+
+5.      Define the importance of Relation Database Management System(RDBMS)?
+
+
+
+*which is a tool we use to manage data
+
+
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+
+
+
+*relational database is  databese based on a relational  model of data
+
+
+
+ 
+7. 	List examples of Relation Database Management System(RDBMS)?
+
+
+*SQL,MYSQL,SQLite
+
+
+8.       List examples of Non-Relational DB(Nosql)? 
+
+
+
+*MONGODN,COUCHBASE,APACHE HBASE
+
+
+
+9.       Define and Describe is Structured Query Language(SQL)?
+
+*is a relational database we can acces and manage by creating,reading,updating and deliting data on it.
+
+
+10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+
+
+*DDL allows us to perform various operations on the DataBase.by changes to the structure of the table like creation of table, altering table, deleting a table etc.
+*DML USE to manipulat the data stoed in a table oe a table by itself (update ,insert,delet data .)
+*DCL are the command that alows to control access to the databese. (it is a controling languege
+*TCL commands to use transaction in a the databese (it is a controling languege) 
+
+
+11.      what is table in Database(DB)?
+
+
+*it is object that contain information or data of the databade
+
+
+12.     what is column and Row(tuples) in table?
+
+
+
+*column is arrenged of data listed in vertical and row is arrenged data in horizontal line
+
+To Be Continued…
+
