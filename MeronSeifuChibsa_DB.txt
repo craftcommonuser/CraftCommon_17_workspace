@@ -1,0 +1,46 @@
+QUIZ
+
+1. what is Data?
+   --> It is unprocessed/raw facts that can be recorded. 
+
+2. what is Information?  
+   --> It is processed, organized or classified data.
+
+3. what is Database(DB)?
+   --> A database is a systematic collection related of data, that represent some real world entities. 
+
+4. What is the Relation Database Management System(RDBMS)? 
+   --> is a program that allows us to create, update, and administer a relational database. 
+
+5. Define the importance of Relation Database Management System(RDBMS)?
+   --> important for storing, retrieving and manipulating data in an efficient manner.
+
+
+6. As we all know that there are Two types of Database. Relational
+   Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+   --> (SQL)-a domain-specific programming language for querying and manipulating data in a relational database.
+   --> (NoSQL)-is a non-relational database that allow us to input data according to the structures we choose, 
+               rather than adhering to the strict schemas of relational databases
+
+7. List examples of Relation Database Management System(RDBMS)?
+   -->  MySQL,Oracle Database,IBM Informix, Microsoft Access etc
+
+8. List examples of Non-Relational DB(Nosql)?
+   --Cassandra, Mongodb, Hbase etc
+
+9. Define and Describe is Structured Query Language(SQL)?
+   --> SQL is the core of a relational database which is used for accessing and managing database.
+
+10. List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+   --> DDL alows us to create, alter, delete etc and make various changes in the stracture of a table permanently.
+   --> DML is a computer programming language used for adding, modifying, deleting data stored inside a table.
+   --> DCL is a syntax used to grant or revoke access to the database.
+   --> TCL commands are basically used for managing and controlling the transactions in a database.
+
+11. what is table in Database(DB)?
+   --> It is a collection of related data held in a table format which consists of column & rows
+
+12. what is column and Row(tuples) in table?
+   --> A column is a vertical element that hold values of the same field. 
+   --> A row is a horizontal element in the table. 
+
