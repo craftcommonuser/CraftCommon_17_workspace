@@ -1,0 +1,69 @@
+Course Database (DB)
+Short Answer 
+Student Name Abateneh M Wahidi
+
+What is Data? is distinct pieces of information
+		Its a row data
+What is Information? is a sequence of symbols that carries a message
+What is Database(DB)? Its a collection of structured information
+What is the Relation Database Management System(RDBMS)?
+ is a database that stores information in the form of tables called relations
+Its open source 
+Provides multi users access 
+Support multi storage engines 
+Works in many platforms 
+Define the importance of Relational Database Management System(RDBMS)?
+Is a software application interact with user application and database 
+It's a tool to manage a data 
+As we all know that there are Two types of Databases. Relational
+Database(SQL) AND Non-Relational DB(NO sql). what is the difference between
+relational databases emphasize structure, whereas non-relational databases prioritize flexibility.
+Relational databases use tables that are all connected to each other.
+Non-relational databases  are document-oriented.
+List examples of Relational Database Management System(RDBMS)?
+MySQL
+ PostgreSQL  
+Microsoft Access
+SQL Server
+Oracle …
+List examples of Non-Relational DB(Nosql)?
+Elasticsearch
+Apache CouchDB
+Couchbase
+Define and Describe Structured Query Language(SQL)?
+is a standardized programming language which is used to manage relational database and perform various operations on the data
+Is used to perform to create,update retrieve and delete row data
+List and Describe each of the different subsets of SQL(Mean DDL, DML,
+DCL, TCL)?
+DDL (Data Definition Language)
+allow auto committed 
+Save all commands permanently in the Database
+ is allow to perform various operation on Database  this includes change the structure of the table 
+Creation of table 
+Altering table 
+Deleting table 
+DML (Data Manipulation Language)
+is allow to accesses and manipulate data 
+Insert 
+Delate
+Update 
+Retrieve data from the database 
+Is Not  allow autocommit 
+DCL (Data Control Language)
+Commands to grant and take back authority from any database users 
+Allow to control access to the database 
+Grant and revoke access permission 
+TCL (Transaction Control Language)
+Is used to manage transaction in the Database 
+Allow to grouped together by
+ Commit
+Savepoint
+ rollback and 
+set transaction  
+
+What is a table in Database(DB)?
+A table is a data structure that organizes information into rows and columns.
+What is column and Row(tuples) in the table?
+A table usually contains columns and rows
+columns stand for attributes. 
+A single row of a table that has a single record known as a tuple. 
