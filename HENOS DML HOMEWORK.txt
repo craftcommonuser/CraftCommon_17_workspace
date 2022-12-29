@@ -1,0 +1,55 @@
+DML HOMEWORK 
+
+create database studentDB;
+USE studentDB;
+
+create table student(
+studnet_ID int,
+student_firstname varchar(50),
+student_lastname varchar(50),
+student_department varchar(50)
+);
+
+alter table student 
+add column student_address varchar(50);
+
+alter table student
+modify student_firstname varchar(60)
+
+
+
+create database customers_table;
+
+create table customers(
+cust_id int,
+cust_firstname varchar(20),
+cust_lastname varchar(20),
+cust_age int,
+cust_gender char(20),
+cust_country varchar(20),
+cust_salary int
+);
+
+desc customers;
+
+insert into customers
+values(111, 'nick', 'jones', null, 'm', 'usa', 20000000),
+(222, 'antony', 'martial', null, 'm', 'france', 10000000),
+(333, 'ross', 'geller', null, 'm', 'uzbekistan', 36000000),
+(444, 'chandler', 'bing', null, 'm', 'unknown', 34000000),
+(555, 'nrachel', 'green', null, 'f', 'kazakhstan', 400000),
+(666, 'nick', 'jones', null, 'm', 'usa', 20000000),
+(777, 'poul', 'pogba', null, 'm', 'france', 20000000),
+(888, 'joey', 'tribbiani', null, 'm', 'ethiopia', 70000000);
+
+select * from  customers;
+
+
+update customers 
+set CUST_country = 'ETHIOPIA'
+WHERE cust_id in (333,444,555);
+
+
+update customers
+set cust_firstname = 'null', cust_lastname = 'null'
+where cust_id = 666;
