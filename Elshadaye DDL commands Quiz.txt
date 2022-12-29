@@ -1,0 +1,34 @@
+-- DDL Commands Quiz 
+
+create table student(
+          id int not null, 
+          firstname varchar(50), 
+          lastname varchar(50), 
+          deparment varchar(50));
+          
+          
+rename table student to teacher;
+
+Alter table teacher
+Add column bonus int not null;
+
+alter table teacher 
+modify column age int not null;
+
+alter table teacher
+drop column bonus; 
+
+rename table teacher to college_teachers;
+
+drop table college_teachers;
+Drop database studentinfo;
+
+create database studentinfo;
+
+use studentinfo;
+create table teachers(
+          id int not null, 
+          firstname varchar(50), 
+          lastname varchar(50), 
+          deparment varchar(50));
+          
