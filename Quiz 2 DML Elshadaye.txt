@@ -1,0 +1,47 @@
+-- Quiz 2 
+
+create database Business;
+use business;
+
+create table customers(
+	Cust_ID int,
+    Cust_First_name varchar(50),
+    Cust_Last_name varchar(50),
+    Cust_age int null,
+    Cust_Gender char(1),
+    Cust_Country varchar(50),
+    Cust_salary double);
+
+Insert into Customers
+Values(111, 'Nick', 'Jones', Null, 'M', 'USA', 20000000);
+
+Insert into Customers
+Values(222, 'Antony', 'Martial', Null, 'M', 'France', 10000000);
+
+Insert into Customers
+Values(333, 'Ross', 'Geller', Null, 'M', 'Uzbekistan', 36000000);
+
+Insert into Customers
+Values(444, 'Chandler', 'Bing', Null, 'M', 'Unknown', 34000000);
+
+Insert into Customers
+Values(555, 'Rachel', 'Green', Null, 'F', 'Kazakhstan', 400000);
+
+Insert into Customers
+Values(666, 'Nick', 'Jones', Null, 'M', 'USA', 20000000);
+
+Insert into Customers
+Values(777, 'Paul', 'Pogba', Null, 'M', 'France', 20000000);
+
+Insert into Customers
+Values(888, 'Joey', 'Tribbiani', Null, 'M', 'Ethiopia', 70000000);
+	
+    select * from customers;
+    
+update customers
+set Cust_country = "Ethiopia"
+where Cust_Id in (333, 444, 555);
+
+update customers
+set Cust_first_name = null, Cust_last_name = null
+where cust_id = 666;
