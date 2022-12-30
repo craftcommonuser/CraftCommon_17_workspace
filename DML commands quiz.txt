@@ -1,0 +1,22 @@
+-- insert values to customer table
+insert into customer
+values(111, 'Nick', 'Jones', ' ', 'M', 'USA', 20000000),
+       (222, 'Antony', 'Martial', ' ', 'M', 'France', 10000000),
+       (333, 'Ross', 'Geller', ' ', 'M', 'Uzbekistan', 36000000),
+       (444, 'Chandler', 'Bing', ' ', 'M', 'Unknown', 34000000),
+       (555, 'Rachel', 'Green', ' ', 'F', 'Kasakhstan', 400000),
+      (666, 'Nick', 'Jones', ' ', 'M', 'USA', 20000000),
+      (777, 'Paul', 'Pogba', ' ', 'M', 'France', 20000000),
+      (888, 'Joey', 'Tribbiani', ' ', 'M', 'Ethiopia', 70000000);
+
+
+-- Update customer Id 333,444,555 to Ethiopia
+select * from customer;
+update customer
+set cust_country = 'Ethiopia'
+where cust_id in (333,444,555)
+
+
+-- delete fname and lname of id 666
+delete from customer
+where cust_firstname= 'nick' and cust_lastname = 'Jones';
