@@ -1,0 +1,49 @@
+movie (movie_id, title, movie_year, movie_producer)
+You can choose any movies you know.
+1. Create a new database for your movies.
+create database movies;
+
+2. Create a table named “movie”
+use movies;
+create table movie(
+movie_id int, title varchar(20),
+ movie_year int, 
+ movie_producer varchar(20)
+);
+
+3. Insert 10 movies into your table.
+insert into movie (movie_id, title, movie_year, movie_producer)
+values ('1','Licorice Pizza ','2021','paul');
+
+insert into movie (movie_id, title, movie_year, movie_producer)
+values ('2','The French Dispatch ','2022','Wes');
+insert into movie (movie_id, title, movie_year, movie_producer)
+values ('3',' The Last Duel ','2020','Scott');
+insert into movie (movie_id, title, movie_year, movie_producer)
+values ('4','Shang-Chi','2011','Dustin');
+insert into movie (movie_id, title, movie_year, movie_producer)
+values ('5','Last Night in Soho ','2019','Edgar');
+insert into movie (movie_id, title, movie_year, movie_producer)
+values ('6','6. King Richard ','2017','green');
+insert into movie (movie_id, title, movie_year, movie_producer)
+values ('7','The Suicide Squad ','2018','Gunn');
+insert into movie (movie_id, title, movie_year, movie_producer)
+values ('8','Free Guy','2015','Levy');
+insert into movie (movie_id, title, movie_year, movie_producer)
+values ('9', 'Do not Look Up ','2014','Adam');
+insert into movie (movie_id, title, movie_year, movie_producer)
+values ('10','Titane ','2013','Julia');
+
+4. Write a statement that sorts your tables by movie_year
+SELECT movie_year
+FROM movie
+ORDER BY movie_year DESC;
+
+5. Write a SQL query to find the name and year of the movies
+SELECT title, movie_year
+From movie;
+
+6. Write a SQL query to retrieve a movie released last year.
+select *
+FROM movie
+where movie_year= '2022';
