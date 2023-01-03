@@ -1,0 +1,61 @@
+create database MyDB;
+Use MyDB;
+create table customers(
+Cust_ID int primary key not null auto_increment,
+Cust_FirstName varchar(50) not null,
+Cust_LastName varchar(50) not null,
+Cust_NickName varchar(50),
+Cust_Age int,
+Cust_Gender char NOT NULL,
+Cust_Country varchar(50) not null,
+Cust_salary double not null
+);
+
+insert into customers
+values
+(111, 'Nick', 'Jones', null,  null, 'M', 'USA', 20000000),
+(222, 'Anony', 'Martial', null, null, 'M', 'France', 10000000),
+(333, 'Ross', 'Geller', null, null, 'M', 'Uzbekistan', 36000000),
+(444, 'Chandler', 'Bing', null, null, 'M', 'Unknown', 34000000),
+(555, 'Rachel', 'Green', null, null, 'F', 'Khazakistsn', 400000),
+(666, 'Nick', 'Jones', null, null, 'M', 'USA', 20000000),
+(777, 'Paul', 'Pogba', null, null, 'M', 'France', 20000000),
+(888, 'Joey', 'Tribbiani', null, null, 'M', 'Ethiopia', 70000000);
+
+update customers
+set Cust_Country= 'Ethiopian'
+where Cust_ID in (333,444,555);
+
+Delete from customers
+where Cust_ID= 666;
+
+alter table customers
+add bonus int not null;
+
+-- to modify 
+Update customers
+set cust_age= 0
+where Cust_age is null;
+
+alter table customers
+modify cust_age int not null;
+
+alter table customers
+drop Cust_NickName,
+drop bonus;
+
+drop table customers;
+
+drop database MyDB;
+
+create Database MyDB;
+create table customers(
+Cust_ID int primary key not null auto_increment,
+Cust_FirstName varchar(50) not null,
+Cust_LastName varchar(50) not null,
+Cust_NickName varchar(50),
+Cust_Age int,
+Cust_Gender char NOT NULL,
+Cust_Country varchar(50) not null,
+Cust_salary double not null
+);
