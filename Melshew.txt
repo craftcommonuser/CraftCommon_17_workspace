@@ -8,6 +8,7 @@ Answer
 5. A relational database is a way of structuring information in tables, rows and columns.
 6. A relational database is structured, meaning the data is organized in tables, A non relational database is document oriented, meaning, all information gets stored in more of a laundry list order.
 7. Microsoft sql server, oracle database, Mysql and IBM DB2.
+8. MongoDB, Apache Cassandra, Redis, Couchbase and Apache HBase.
 9. SQL is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.
 10. DDL -Data Definition Language.
     DML - Data Manipulation Language.
