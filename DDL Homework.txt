@@ -1,0 +1,114 @@
+create table customer_tbl (
+Cust_ID Int not null, 
+Cust_FirstName varchar (100) not null, 
+Cust_LastName varchar (100) not null,
+Cust_Age int, create table customer_tbl (
+Cust_ID Int not null, 
+Cust_FirstName varchar (100) not null, 
+Cust_LastName varchar (100) not null,
+Cust_Age int, 
+Cust_Gender char (2) not null,
+Cust_Country varchar (100) not null, Cust_Salary int not null);
+
+
+DDL
+--
+Show databases;
+Use customers;
+Create table Lab_Guide (
+name varchar (100) not null, Data_Type Int not null);
+Show columns from Lab_Guide;
+
+-- add column Using alter 
+Alter table Lab_Guide
+Add column bonus int not null;
+-- I used modify column using alter--
+Alter table Lab_Guide
+ modify Age int not null;
+ 
+-- Delete column using alter--
+Alter table Lab_Guide 
+Drop column first_name;
+
+ Alter table Lab_Guide 
+Drop column	 bonus;
+
+-- Rename Customers Table to Customer Table--
+
+Rename table Lab_guide to Customer_table;
+
+
+Select * from Lab_Guide
+
+2nd part of the homework
+
+--
+Show databases;
+Use customers;
+Create table Lab_Guide (
+name varchar (100) not null, Data_Type Int not null);
+Show columns from Lab_Guide;
+
+-- add column Using alter 
+Alter table Lab_Guide
+Add column bonus int not null;
+-- I used modify column using alter--
+Alter table Lab_Guide
+ modify Age int not null;
+ 
+-- Delete column using alter--
+Alter table Lab_Guide 
+Drop column first_name;
+
+Cust_Gender char (2) not null,
+Cust_Country varchar (100) not null, Cust_Salary int not null);
+
+
+DDL
+--
+Show databases;
+Use customers;
+Create table Lab_Guide (
+name varchar (100) not null, Data_Type Int not null);
+Show columns from Lab_Guide;
+
+-- add column Using alter 
+Alter table Lab_Guide
+Add column bonus int not null;
+-- I used modify column using alter--
+Alter table Lab_Guide
+ modify Age int not null;
+ 
+-- Delete column using alter--
+Alter table Lab_Guide 
+Drop column first_name;
+
+ Alter table Lab_Guide 
+Drop column	 bonus;
+
+-- Rename Customers Table to Customer Table--
+
+Rename table Lab_guide to Customer_table;
+
+
+Select * from Lab_Guide
+
+2nd part of the homework
+
+--
+Show databases;
+Use customers;
+Create table Lab_Guide (
+name varchar (100) not null, Data_Type Int not null);
+Show columns from Lab_Guide;
+
+-- add column Using alter 
+Alter table Lab_Guide
+Add column bonus int not null;
+-- I used modify column using alter--
+Alter table Lab_Guide
+ modify Age int not null;
+ 
+-- Delete column using alter--
+Alter table Lab_Guide 
+Drop column first_name;
