@@ -1,0 +1,11 @@
+create database MyDB;
+Use mydb;
+create table customers(
+Cust_ID int not null auto_increment unique,
+Cust_FirstName varchar(60) not null,
+Cust_LastName Varchar(50) not null,
+Cust_Nickname varchar(40),
+Cust_Age int,
+Cust_Gender Char not null,
+Cust_Country varchar(40) not null,
+Cust_Salary decimal(12,2) not null);
