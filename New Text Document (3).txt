@@ -1,0 +1,39 @@
+-- create a database called MYDB
+ create database mydb;
+ use mydb;
+ 
+ -- create customers table
+ create table customers(
+ cust_id int not null primary key,
+ cust_firstname varchar(50) not null,
+ cust_lastname varchar(50) not null,
+ cust_nickname varchar(50),
+ cust_age int,
+ cust_gender char(1) not null,
+ cust_country varchar(50) not null,
+ cust_salary decimal not null); 
+  -- insert data into customers table
+insert into customers
+values(111, 'Nick', 'jones', 'a',  null, 'm', 'USA', 20000000);
+insert into customers
+values(222, 'Antony', 'martial', 'b',  null, 'm', 'FRANCE', 10000000);
+insert into customers
+values(333, 'Ross', 'Geller', 'c',  null, 'm', 'Uzbekistan', 36000000);
+insert into customers
+values(444, 'Chandler', 'Bing', 'd',  null, 'm', 'Unknown', 34000000);
+insert into customers
+values(555, 'Rachel', 'Green', 'e',  null, 'F', 'Kazakhstan', 400000);
+insert into customers
+values(666, 'Nick', 'jones', 'f',  null, 'm', 'USA', 20000000);
+insert into customers
+values(777, 'paul', 'pogba', 'g',  null, 'm', 'France', 20000000);
+ insert into customers
+values(888, 'Joey', 'Tribbiani', 'h',  null, 'm', 'Ethiopia', 70000000);
+-- make modifications using update
+update customers
+ set  cust_firstname = null and cust_lastname = null
+ where cust_id = 666; 
+alter  table customers
+modify cust_firstname varchar(50) null;
+alter  table customers
+modify cust_lastname varchar(50) null;
