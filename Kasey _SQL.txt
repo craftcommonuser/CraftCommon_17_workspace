@@ -27,7 +27,7 @@ insert into customers
  (555,'Rachel','Green','RG',null,'F','Kazakhistan',400000),
  (666,'Nick','jones','NJ',null,'M','USA',20000000),
  (777,'Poul','Pogba','PP',null,'M','France',20000000),
- (888,'Joey','Tribbiani','JT',null,'M','Ethiopia',70000000);
+ (888,'Joey','Tribbiani','JT',null,'M','Ethiopia',70000000;
  
 update customers
 set cust_country = 'Ethiopia'
