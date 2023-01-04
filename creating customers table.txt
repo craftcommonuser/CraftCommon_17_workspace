@@ -1,0 +1,13 @@
+create database MyDB;
+use mydb
+
+create table customers(
+Id int not null primary key auto_increment,
+First_name varchar(30) not null,
+Last_name varchar(30) not null,
+Nick_name varchar(25),
+Age int,
+Gender char not null,
+Country varchar(27) not null,
+Salary decimal not null
+);
