@@ -16,6 +16,7 @@ Cust_Country varchar(20) not null,
 Cust_Salary decimal not null,
 Primary key(Cust_ID)
 );
+
 desc customers;
 
 insert into customers 
