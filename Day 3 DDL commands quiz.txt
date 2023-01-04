@@ -1,0 +1,12 @@
+create schema MyDB;
+use MyDB;
+create table customers(
+Cust_ID int auto_increment not null unique,
+Cust_FirstName varchar(30) not null,
+Cust_LastName varchar(30) not null,
+Cust_NickName varchar(30),
+Cust_Age int,
+Cust_Gender char(1) not null,
+Cust_Country varchar(30),
+Cust_Salary double
+);
