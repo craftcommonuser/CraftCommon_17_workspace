@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+Hello class
+=======
 <<<<<<< Updated upstream
 Hello team
 =======
@@ -7,3 +10,4 @@ Hello Team
 Hello team
 >>>>>>> main
 >>>>>>> Stashed changes
+>>>>>>> main

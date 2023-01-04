@@ -40,4 +40,4 @@
 
 12. what is column and Row(tuples) in table?
     The Row(tuples) within a table, each represents a group of related data values. The columns in the table are fields and is also referred to as an attribute.
-    You can also think of it this way: an attribute is used to define the record and a record contains a set of attributes..
+
