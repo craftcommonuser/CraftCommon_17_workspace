@@ -1,0 +1,75 @@
+AGGregate Functions Quiz From Abel A
+
+
+ --all records from the table
+select * from customer;
+
+-- Ethiopian citizen
+select * from customer
+where cust_country = 'Ethiopia';
+
+-- salary greater than 5million
+select * from customer
+where cust_salary > 5000000;
+
+-- all male cust fname, lname and country
+select cust_firstname, cust_lastname, cust_country
+from customer
+where cust_gender = 'M';
+
+-- distinct country
+select distinct cust_country
+from customer;
+
+-- all female descending order
+select cust_firstname, cust_lastname, cust_country
+from customer
+where cust_gender = 'F'
+order by cust_gender desc;
+
+-- female with salary <2million and ethiopian
+select * from customer
+where cust_salary > 2000000 and cust_country = 'Ethiopia' and cust_gender= 'F';
+
+-- Ethipian or uzbekistan citizen
+ select * from customer
+where cust_country = 'Ethiopia' or cust_country = 'Uzbekistan';
+
+-- minimum salry
+select min(cust_salary)
+from customer;
+-- max salary
+select max(cust_salary)
+from customer;
+
+-- total number of customers
+select count(cust_id)
+from customer;
+
+-- average salary
+select avg(cust_salary)
+from customer;
+
+-- sum of customer salary
+select sum(cust_salary)
+from customer;
+
+-- salary between 2 million and 8 million
+select * from customer
+where cust_salary between 20000000 and 80000000;
+
+-- first name starts with 'S'
+select * from customer 
+where cust_firstname like 's%'; 
+
+-- first name with 'e' in the second postion and last name ends with'e'
+select * from customer
+where cust_firstname like '_e' and cust_lastname like '%e';
+
+-- last name ends with 'P' and ends with 'a'
+select * from customer
+where cust_lastname like 'P%' and cust_lastname like '%a';
+
+-- customers from Ethiopia, USA and France
+select * from customer
+where cust_country in('Ethiopia', 'USA', 'France');
