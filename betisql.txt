@@ -1,0 +1,44 @@
+create database mydb;
+use mydb;
+creat table customers ( 
+cust_id int auto_increment not null,
+cust_firstname varchar(20) not null,
+cust_lastname varchar(20) not null,
+cust_nickname varchar(20);
+cust-age int,
+cust_gander varchar(10) not null,
+cust_country varchar(50) not null,
+cust_salary decimal not null );
+desc customers;
+show table status;
+ 
+insert into customers 
+ values(111,'nick','jones','NJ',null,'M','USA',20000000),
+ (222,'Antony','Martial','AM',null,'M','France',10000000),
+ (333,'Rose','Geller','RG',null,'M','Uzbekistan',36000000),
+ (444,'Chandler','Bing','CB',null,'M','Unknown',340000000),
+ (555,'Rachel','Green','RG',null,'F','Kazakhistan',400000),
+ (666,'Nick','jones','NJ',null,'M','USA',20000000),
+ (777,'Poul','Pogba','PP',null,'M','France',20000000),
+ (888,'Joey','Tribbiani','JT',null,'M','Ethiopia',70000000);
+
+
+
+ update customers
+ set cust_country = 'ethiopia'
+ where cust_id in(333,444,555);
+  
+delete from customers 
+where cust_firstname= 'nick'and custlastname_jones
+ and cust_id =666;
+ 
+ 
+
+
+
+
+
+
+
+
+ 
