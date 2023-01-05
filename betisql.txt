@@ -10,7 +10,7 @@ cust_gander varchar(10) not null,
 cust_country varchar(50) not null,
 cust_salary decimal not null );
 desc customers;
-show table status;
+
  
 insert into customers 
  values(111,'nick','jones','NJ',null,'M','USA',20000000),
