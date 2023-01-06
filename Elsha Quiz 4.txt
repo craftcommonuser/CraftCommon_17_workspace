@@ -1,0 +1,30 @@
+1. Select * from Customers;
+2. Select * from customers
+	where Cust_country in ('Ethiopia');
+3. Select * from customers
+	where cust_Salary > '5Million';
+4. Select cust_First_Name, cust_Last_Name, cust_Country from Customers 
+	where Cust_gender = 'M';
+5. Select distinct cust_country from customers;
+6. Select Cust_First_Name, Cust_Last_Name, cust_Country from customers 
+	where Cust_gender = 'F'
+	order by cust_gender desc;
+7. Select * from Customers
+	where cust_salary > '2Million' and cust_country = 'Ethiopia';
+8. Select * from customers 
+	where Cust_country = 'Ethiopian' or 'Uzbekistan';
+9. Select min(cust_salary) from customers;
+10. Select max(cust_salary) from customers;
+11. Select count(cust_Id) from customers;
+12. Select Avg(cust_salary) from customers;
+13. Select Sum(Cust_salary) from customers;
+14. Select * from customers
+	where Cust_salary between '2million' and '8million';
+15. Select * from customers
+ where Cust_First_name Like 's%';
+16. Select * from customers
+	where Cust_First_name Like '_e%' and Cust_last_name Like '%e';
+17. Select * from customers
+	where Cust_Last_name Like 'P%a';
+18. Select * from customers 
+	where cust_country in ('Ethiopia', 'USA', 'France'); 
