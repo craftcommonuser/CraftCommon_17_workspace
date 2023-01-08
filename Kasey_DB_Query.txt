@@ -1,0 +1,60 @@
+
+1.select * from customers;
+ 
+2.select * from customers
+  where Cust_Country = 'Ethiopia';
+ 
+3.select * from customers
+  where Cust_Salary > (5000000);
+
+4.select cust_firstname,cust_lastname,cust_country 
+  from customers
+  where cust_gender = 'M';
+
+5.select distinct cust_country
+  from customers;
+
+6.select cust_firstname,Cust_LastName,Cust_Country
+  from customers
+  where Cust_Gender = 'F'
+  order by Cust_Gender DESC;
+
+7.select cust_gender,Cust_Country,Cust_Salary
+  from customers
+  where  Cust_Gender = 'F' and cust_country ='Ethiopia' and cust_salary >2000000;
+
+8.select * from customers
+  where Cust_Country = 'Ethiopia'or 'Uzbekistan';
+
+9.select min(cust_salary)
+  from customers;
+
+10.select max(cust_salary)
+   from customers;
+
+11.select count(cust_id)
+   from customers;
+
+12.select avg(cust_salary)
+   from customers;
+
+13.select sum(cust_salary)
+   from customers;
+
+14.select * from customers
+   where Cust_Salary between 2000000 and 8000000;
+
+15.select * from customers
+   where Cust_FirstName like 'S%';
+
+16.select * from customers 
+   where cust_firstname like '_%E' and cust_lastname like '%E';
+
+17.select * from customers
+   where Cust_LastName like 'P%' and '%A';
+
+18.select *from customers
+   where Cust_Country in ('Ethiopia', 'USA', 'France');
+
+
+ 
