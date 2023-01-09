@@ -1,0 +1,12 @@
+database quiz
+
+ insert into customers
+values (111,'nick','jones','NJ', null,'M','USA',20000000),
+       (222,'Antony','Martial','AM', null,'M','France',10000000),
+       (333,'Ross','Geller','RG',null, 'M','Uzbekistan',36000000),
+     (444,'Chandler','Bing','CB',null,'M','Unknown',340000000),
+     (555,'Rachel','Green','RG',null,'F','Kazakhistan',400000),
+     (666,'Nick','jones','NJ',null,'M','USA',20000000),
+     (777,'Poul','Pogba','PP',null,'M','France',20000000),
+     (888,'Joey','Tribbiani','JT',null,'M','Ethiopia',70000000);
+    desc customers;
