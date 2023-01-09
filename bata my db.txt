@@ -1,0 +1,15 @@
+Database quz2
+
+
+create table customers ( 
+cust_ID int not null auto_increment,
+cust_Firstname varchar(20) not null,
+cust_lastname varchar(30) not null,
+cust_nickname varchar(20),
+cust_age int,
+cust_gender character not null,
+cust_country varchar(30) not null,
+cust_salary decimal not null,
+primary key (cust_ID)
+);
+ desc customers;
