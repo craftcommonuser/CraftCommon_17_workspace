@@ -34,7 +34,7 @@ public class StudentInfo2 {
 		System.out.print("Continue? (y/n)");
 		choice =sc.next();
 		
-		System.out.println();
+	
 		
 		//our out put
 		
@@ -45,6 +45,7 @@ public class StudentInfo2 {
 		System.out.println("Bonus: " + bonus);
 		System.out.println("Student total salary: "+ totalSalary);
 		
+		System.out.println();
 	
 	
 		}
