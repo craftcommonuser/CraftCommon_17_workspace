@@ -4,10 +4,10 @@ public class Epmloyeinfo {
 
 	
 	public static void main(String[] args) {
-	Scanner samri = new Scanner(System.in);
+	Scanner sc = new Scanner(System.in);
 		  do {
 		// TODO Auto-generated method stub
-Scanner in =new Scanner (System.in);
+Scanner in  =new Scanner (System.in);
 System.out.println("pls follow the instruction:" );
 System.out.println("pls enter your name:" );
 String empName = in.next();
@@ -21,8 +21,8 @@ System.out.println("pls enter your Bonus");
 double empBonus = in.nextDouble();
 double ts = empSalary + empBonus;
 System.out.println("Total Salary:"+ts);
-System.out.println("Employe Name:"+ empName);
-System.out.println("Employe LastName:"+ empLastName);
+System.out.println("Employe Name:"+ empName + " " + empLastName);
+//System.out.println("Employe LastName:"+ empLastName);
 System.out.println("Employe Age:"+ empAge);
 System.out.println("Employe Salary:"+ empSalary);
 System.out.println("Employe Bonus:"+ empBonus);
@@ -31,7 +31,7 @@ System.out.println("Employe Bonus:"+ empBonus);
 
 	 System.out.print("are you finish ? No 1 or Yes 2 >>>");
 	
-		   } while (samri.nextInt() == 1);
+		   } while (sc.nextInt() == 1);
 		  System.out.print("Thank you ");
 	}
 	
