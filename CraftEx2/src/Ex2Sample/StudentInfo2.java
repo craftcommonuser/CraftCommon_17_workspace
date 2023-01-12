@@ -12,6 +12,7 @@ public class StudentInfo2 {
 		String choice = "y";
 		while(!choice.equalsIgnoreCase("n")) {
 	
+			
 		System.out.println("Enter First name:");
 		String firstName=sc.next();
 		

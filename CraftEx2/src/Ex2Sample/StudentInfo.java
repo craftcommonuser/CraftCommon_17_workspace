@@ -10,6 +10,7 @@ public class StudentInfo {
 		String lastName ="Jemes";
 		int age= 34;
 		double salary = 2000.45;
+		
 		double bonus = 100;
 		double totalSalary = salary + bonus;
 		
