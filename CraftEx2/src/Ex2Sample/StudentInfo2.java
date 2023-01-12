@@ -33,6 +33,7 @@ public class StudentInfo2 {
 		//if we want to continue enter another data choice y or to stop choice n
 		System.out.print("Continue? (y/n)");
 		choice =sc.next();
+		
 		System.out.println();
 		
 		//our out put
