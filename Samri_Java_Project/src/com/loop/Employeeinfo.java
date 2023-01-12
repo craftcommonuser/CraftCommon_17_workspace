@@ -33,7 +33,7 @@ System.out.println("Employe Bonus:"+ empBonus);
 	 System.out.print("are you finish ? No 1 or Yes 2 >>>");
 	
 		   } while (samri.nextInt() == 1);
-		  System.out.print("Thank you ");
+		  System.out.print("Thank you!!! ");
 	}
 	
 }
