@@ -8,7 +8,7 @@ public class Epmloyeinfo {
 		  do {
 		// TODO Auto-generated method stub
 Scanner in =new Scanner (System.in);
-System.out.println("pls follow the instructions:" );
+System.out.println("pls follow the instruction:" );
 System.out.println("pls enter your name:" );
 String empName = in.next();
 System.out.println("pls enter your LastName");
