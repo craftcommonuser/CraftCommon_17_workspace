@@ -1,9 +1,6 @@
 package Com.Day2;
 
 public class AmanAg {
-	static int AA= 23; 
-	system.out.println();
-	
 	public void methodone(){
 		
 		int age = 25;
