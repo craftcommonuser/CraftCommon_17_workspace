@@ -4,7 +4,7 @@ public class InstanceVariableDemo {
 	
 	int age = 25; //InstanceVariablea Declared outside methods
 	public void methodone() {
-				int i = 10; // local variable 
+				int i = 11; // local variable 
 				System.out.println("Value of i:" + i);
 				System.out.println("Value of age:" + age);
 	}
