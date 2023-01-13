@@ -24,10 +24,10 @@ public class javaexcercise1 {
 	    System.out.print("Enter Your Salary");
 	    Double salary = in.nextDouble();
 	    
-	    System.out.println("Enter your Bonus: ");
-		double bonus = in.nextDouble();
-		System.out.println("Enter your total");
-		double total = in.nextDouble();
+	    System.out.println("Enter your Department: ");
+		String department = in.next();
+		System.out.println("Enter your ID");
+		String Id = in.next();
 		
 		
 		
