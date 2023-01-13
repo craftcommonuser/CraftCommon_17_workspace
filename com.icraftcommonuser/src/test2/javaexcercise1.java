@@ -33,13 +33,7 @@ public class javaexcercise1 {
 		
 		
 		
-		System.out.println("Student FirstName:"+ firstName);
-		System.out.println("Student LastName:" + lastname);
-		System.out.println("Student Age:" + age);
-		System.out.println("Student Salary:" + salary);
-		System.out.println("Student Bonus:" + bonus);
 	
-		
 
 		
 
