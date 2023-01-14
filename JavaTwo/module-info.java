@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author dahaile
+ *
+ */
+module JavaOne {
+}
