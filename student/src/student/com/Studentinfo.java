@@ -33,18 +33,19 @@ public class Studentinfo {
 				double bonus = input.nextDouble();
 				
 				double totalSalary = salary + bonus;
-				//if we want to continue enter another data choice y or to stop choice n
-				    System.out.print("Continue? (y/n)");
-				    choice =input.next();
+				
+		//if we want to continue enter another data choice y or to stop choice n
+				 System.out.print("Continue? (y/n)");
+				 choice =input.next();
 
 				        
-				        System.out.println("student firstname:" + firstname);
-				        System.out.println("student lastname:" + lastname);
-				        System.out.println("student age:" + age);
-				        System.out.println("student gender:" + gender);
-				        System.out.println("student salary:" + salary);
-				        System.out.println("student bonus:" + bonus);
-				        System.out.println("student totalSalary:" + totalSalary);
+				  System.out.println("student firstname:" + firstname);
+				  System.out.println("student lastname:" + lastname);
+				  System.out.println("student age:" + age);
+				  System.out.println("student gender:" + gender);
+				  System.out.println("student salary:" + salary);
+				  System.out.println("student bonus:" + bonus);
+				  System.out.println("student totalSalary:" + totalSalary);
 				        
 				      
 				      
