@@ -6,12 +6,10 @@ public class Studentinfo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub		
-		
-				    
+						    
 			 Scanner input = new Scanner(System.in);
 		    // my object name 
-				      
-				        
+			    				        
 	         String choice = "y";				
 	         while(!choice.equalsIgnoreCase("n")) {
 
