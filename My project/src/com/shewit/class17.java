@@ -9,8 +9,6 @@ public class class17 {
       System.out.println("write Myname");
       System.out.println("Print My Name");
       System.out.println("Print My LastName");
-      System.out.println("write Myname");
-      System.out.println("Print My Name");
       System.out.println("Print My LastName");
       System.out.println("write Myname");
       System.out.println("Print My Name");
