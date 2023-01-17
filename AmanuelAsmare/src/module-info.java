@@ -5,5 +5,5 @@
  * @author amanu
  *
  */
-module JAVAASSIGNMENT {
+module AmanuelAsmare {
 }
