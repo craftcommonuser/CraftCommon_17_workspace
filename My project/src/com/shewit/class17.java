@@ -11,9 +11,10 @@ public class class17 {
       System.out.println("Print My LastName");
       System.out.println("Print My LastName");
       System.out.println("Print My Name");
-      System.out.println("Print My LastName");
+      System.out.println("My LastName");
       System.out.println("write New LastName");
-     	system.out.print("Project Name");
+      System.out.println("write My New LastName");
+     
 	}
 
 }
