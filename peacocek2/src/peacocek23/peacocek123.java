@@ -5,7 +5,7 @@ public class peacocek123 {
 	public static void main(String[] args) {
 	// TODO Auto-generated method stub
 		
-		String empFirstName = "peacocek";
+		String empFirstName = "peacocekT";
 		String empLastName = "Tiruneh";
 		double empSalary = 43256.78;
 		int empAge = 29;
