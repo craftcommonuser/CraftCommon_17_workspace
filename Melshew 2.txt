@@ -1,0 +1,13 @@
+assignment 2
+ 
+
+create table customer(
+id int NOT NULL,
+first_name varchar(20) NOT NULL,
+last_name varchar(20) NOT NULL,
+nick_name varchar(20),
+age int,
+gender char(1) NOT NULL,
+country varchar(20) NOT NULL,
+salary decimal(10.2) NOT NULL
+);
