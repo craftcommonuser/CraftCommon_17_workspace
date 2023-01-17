@@ -8,7 +8,7 @@ public class Asmare {
 		String firstName ="Asmare";
 		String lastName ="Hunegnaw";
 		int age = 36;
-		double salary = 2000.80;
+		double salary = 2000.50;
 		
 		System.out.println("my firstName:" + firstName);
 		System.out.println("my lastName:" +lastName );
