@@ -6,7 +6,7 @@ public class Test1 {
 		// TODO Auto-generated method stub
 		String firstName = "jonny";
 		String lastName = "James";
-		int age = 34;
+		int age = 24;
 		double salary =   2000.45;
 		double bonus = 100;
 		
