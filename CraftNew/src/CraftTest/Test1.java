@@ -5,7 +5,7 @@ public class Test1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String firstName = "jonny";
-		String lastName = "James";
+		String lastName = "Jamess";
 		int age = 34;
 		double salary =   2000.45;
 		double bonus = 100;
