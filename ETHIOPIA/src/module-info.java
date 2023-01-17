@@ -5,5 +5,5 @@
  * @author amanu
  *
  */
-module TestOne {
+module ETHIOPIA {
 }
