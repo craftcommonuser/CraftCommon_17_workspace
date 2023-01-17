@@ -17,7 +17,7 @@ public class dataType {
 		System.out.println ("enter bonus");
 		double bonus = in.nextDouble();
 		
-//		https://github.com/craftcommonuser/CraftCommon_17_workspace.git
+//	https://github.com/craftcommonuser/CraftCommon_17_workspace.git
 	}
 
 }
