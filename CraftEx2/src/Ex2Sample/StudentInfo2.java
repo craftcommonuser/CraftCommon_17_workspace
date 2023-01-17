@@ -3,13 +3,17 @@ package Ex2Sample;
 import java.util.Scanner;
 
 public class StudentInfo2 {
+	static String choice = "y";
+	int x = 1;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
   // my object name sc
 		Scanner sc =new Scanner(System.in);
 		
 		String choice = "y";
+		
+		
 		while(!choice.equalsIgnoreCase("n")) {
 	
 			
@@ -34,7 +38,7 @@ public class StudentInfo2 {
 		System.out.print("Continue? (y/n)");
 		choice =sc.next();
 		
-	
+		System.out.println();
 		
 		//our out put
 		
@@ -51,7 +55,9 @@ public class StudentInfo2 {
 		}
 		
 		sc.close();
-		System.out.println("Bye");
+	System.out.println("Bye");
 	}
-
+	
+	
+	
 }
