@@ -14,6 +14,8 @@ public class dataType {
 		System.out.println ("enter salary");
 		double salary = in.nextDouble();
 		
+		System.out.println ("enter bonus");
+		double bonus = in.nextDouble();
 	}
 
 }
