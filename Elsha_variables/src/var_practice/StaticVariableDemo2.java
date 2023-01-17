@@ -19,7 +19,7 @@ public class StaticVariableDemo2 {
 		EmployeeInfo m1 = new EmployeeInfo();
 		m1.first_name = "marta";
 		m1.city = "NY";
-		System.out.println("Employee name: " + m1.first_name);;
+		System.out.println("Employee name: " + m1.first_name);
 		System.out.println("Employee city: " + m1.city);
 		
 		System.out.println("\n");
