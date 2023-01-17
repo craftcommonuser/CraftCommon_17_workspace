@@ -22,25 +22,29 @@ int age3 = 1;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		InstanceVariableDemo var = new InstanceVariableDemo();
-//		var.methodone();
-//		var.methodtwo();
+		var.methodone();
+		var.methodtwo();
+		var.incrementDecrement(); 
 		
+	}
+
+	private void incrementDecrement() {
+		
+		//ex for increment and decrement 
 		 // declare variables
 	    int a = 12, b = 12;
 	    int result1, result2;
 
 	    // original value
 	    System.out.println(a++);//12 ==== a=13
-	    System.out.println(++a);//13
-	    System.out.println(a--);//12
+	    System.out.println(++a);//14
+	    System.out.println(a--);//14
 	    System.out.println(--a);//12
 	  
 	    for(int i=1; i<=5; i++) {
 		  
-	    	System.out.print(i);//12
+	    	System.out.print(i);//12345
 	   }
-
-	  
 		
 	}
 }
