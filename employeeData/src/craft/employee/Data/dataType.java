@@ -18,6 +18,6 @@ public class dataType {
 		double bonus = in.nextDouble();
 		
 //	https://github.com/craftcommonuser/CraftCommon_17_workspace.git
-	}
+	
 
 }
