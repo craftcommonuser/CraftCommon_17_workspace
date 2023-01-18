@@ -10,7 +10,7 @@ public class Example {
 		String lastName = "Kids";
 		int age = 36;
 		double salary =   10000.45;
-		double bonus = 1000;
+		double bonus = 10;
 		
 		double totalSalary = salary + bonus;
 		
