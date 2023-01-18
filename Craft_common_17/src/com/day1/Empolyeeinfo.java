@@ -15,6 +15,8 @@ public class Empolyeeinfo {
         System.out.println("pls enter your last name");
         String empLastName = in .next() ;
         
+        System.out.println("pls enter empFull name:" + empName + " " + empLastName );
+        
         
         		
 	}
