@@ -3,13 +3,17 @@ package Ex2Sample;
 import java.util.Scanner;
 
 public class StudentInfo2 {
+	static String choice = "y";
+	int x = 1;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
   // my object name sc
 		Scanner sc =new Scanner(System.in);
 		
 		String choice = "y";
+		
+		
 		while(!choice.equalsIgnoreCase("n")) {
 	
 			
@@ -45,12 +49,15 @@ public class StudentInfo2 {
 		System.out.println("Bonus: " + bonus);
 		System.out.println("Student total salary: "+ totalSalary);
 		
+		System.out.println();
 	
 	
 		}
 		
 		sc.close();
-		System.out.println("Bye");
+	System.out.println("Bye");
 	}
-
+	
+	
+	
 }
