@@ -3,6 +3,7 @@ package craft.employee.Data;
 public class narrowingDataType {
 
 	public static void main(String[] args) {
+		// casting
 		
 		double d = 100.04;
 		long l = (long)d;
