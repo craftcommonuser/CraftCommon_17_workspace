@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author meles
+ *
+ */
+module craft {
+}
