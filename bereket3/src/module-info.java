@@ -1,9 +1,9 @@
 /**
- *
+ * 
  */
 /**
  * @author bereketelias
  *
  */
-module project1 {
+module bereket3 {
 }
