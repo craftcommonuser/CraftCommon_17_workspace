@@ -9,8 +9,8 @@ public class Example {
 		String firstName = "Abateneh";
 		String lastName = "Kids";
 		int age = 36;
-		double salary =   10000.45;
-		double bonus = 10;
+		double salary =   100000.45;
+		double bonus = 100;
 		
 		double totalSalary = salary + bonus;
 		
