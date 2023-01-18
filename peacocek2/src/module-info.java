@@ -5,5 +5,5 @@
  * @author 12404
  *
  */
-module yerosen {
+module peacocek2 {
 }
