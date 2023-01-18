@@ -5,7 +5,7 @@ public class ClassThree {
 		
 
 		
-	String StudentFirstName = "Tamam";
+	String StudentFirstName = "Temam";
 	String StudentLastName = "Dula";
     int StudentAge = 25;
     double StudentSalary = 3000;
