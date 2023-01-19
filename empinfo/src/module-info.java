@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author kasey
+ *
+ */
+module empinfo {
+}
