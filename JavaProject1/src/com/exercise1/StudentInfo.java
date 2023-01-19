@@ -33,7 +33,7 @@ public class StudentInfo {
 		// TODO Auto-generated method stub
 
 		Scanner inpute = new Scanner(System.in);
-	
+
 		System.out.println("Enter your firstName: ");
 		String firstName = inpute.next();
 		System.out.println("Enter your LastName");
@@ -46,15 +46,13 @@ public class StudentInfo {
 		double bonus = inpute.nextDouble();
 		System.out.println("Enter your TotlaSalary");
 		double totalSalary = inpute.nextDouble();
-		
 
-System.out.println("Student Firstname:"+firstName);
-System.out.println("Student LastName: " +lastName);
-System.out.println("Student Age:"+age);
-System.out.println("Student Salary:"+ salary);
-System.out.println("Student Bonus:"+bonus);
-System.out.println("Student Totlasalary:"+totalSalary);
-	
+		System.out.println("Student Firstname:" + firstName);
+		System.out.println("Student LastName: " + lastName);
+		System.out.println("Student Age:" + age);
+		System.out.println("Student Salary:" + salary);
+		System.out.println("Student Bonus:" + bonus);
+		System.out.println("Student Totlasalary:" + totalSalary);
 
 	}
 }
