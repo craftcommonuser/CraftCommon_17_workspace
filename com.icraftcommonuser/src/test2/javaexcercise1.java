@@ -5,6 +5,10 @@ import java.util.Scanner;
 // creating class
 public class javaexcercise1 {
  // my main method
+	
+	
+
+	
 	public static void main(String[] args) {
 	
 
@@ -12,6 +16,7 @@ public class javaexcercise1 {
 		Scanner in = new Scanner(System.in);
 		
 		
+		do {
 		System.out.println("Enter Your FirstName:");
 		String firstName = in.next();
 		
@@ -26,17 +31,20 @@ public class javaexcercise1 {
 	    
 	    System.out.println("Enter your Department: ");
 		String department = in.next();
-		System.out.println("Enter your ID");
-		String Id = in.next();
-		
-		
-		
-		
 		
 	
-
+		System.out.println("Enter your ID");	
+		String Id = in.next();
+		} while("keep entering more information "!= null);
+		
+		
+		
 		
 
+
+
+
+		
 		
 	}
 
