@@ -1,0 +1,15 @@
+package workspace_one;
+
+public class Local_variable {
+
+	
+		// TODO Auto-generated method stub
+		public void methodOne() {
+			int j = 26; // local variable
+			System.out.println("the value of j:" + j);
+			
+		}
+		public static void main(String[] args) {
+	}
+
+}
