@@ -7,7 +7,7 @@ public class example1 {
      
       String firstName = "Adam";
       String lastName = "James";
-      int age = 34;
+      int age = 35;
       double salary = 2000.45;
       double bonus =100;
       System.out.println("fristName");
