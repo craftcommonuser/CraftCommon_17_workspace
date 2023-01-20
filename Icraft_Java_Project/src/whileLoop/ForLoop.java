@@ -7,6 +7,8 @@ public class ForLoop {
 		for (int i = 1; i <=11; i++) {
 			System.out.print("The value of i is:" + i);
 			System.out.println("\n");
+        
 		}
+
 	}
 }
