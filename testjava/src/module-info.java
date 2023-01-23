@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author beti
+ *
+ */
+module testjava {
+}

@@ -16,6 +16,7 @@ public class javaexcercise1 {
 		Scanner in = new Scanner(System.in);
 		
 		
+		do {
 		System.out.println("Enter Your FirstName:");
 		String firstName = in.next();
 		
@@ -34,37 +35,16 @@ public class javaexcercise1 {
 	
 		System.out.println("Enter your ID");	
 		String Id = in.next();
+		} while("keep entering more information "!= null);
 		
 		
 		
 		
-		System.out.println("Student FirstName:"+ " " + firstName);
-		System.out.println("Student LastName: " + " " + lastname);
-		System.out.println("Student Age: " + " " + age);
-		System.out.println("Student Salary: " + " " + salary);
-		System.out.println("Student Department: " + " " + department);
-		System.out.println("Enter your ID:"+ " " + Id);
-		
-		
-		Scanner sc = new Scanner(System.in);
-		while(true) {
-		    // ask the user for input
-		    System.out.print("Enter your first name: ");
-		    String input = sc.nextLine();
-		    
-		 // do something with input
 
-		    // ask the user if they want to enter more information
-		    System.out.print("Do you want to enter more information? (yes/no): ");
-		    String choice = sc.nextLine();
-		    if(!choice.equalsIgnoreCase("yes")) {
-		        break;
-		    
-		    }
-		}
-		
-	
 
+
+
+		
 		
 	}
 
