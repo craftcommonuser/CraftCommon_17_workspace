@@ -12,6 +12,9 @@ public class example1 {
        System.out.println("print something");
        System.out.println("print something");
        System.out.println("print something");
+       int x = 13;
+       int square = x^2;
+       System.out.println(square);
 	}
 
 }
