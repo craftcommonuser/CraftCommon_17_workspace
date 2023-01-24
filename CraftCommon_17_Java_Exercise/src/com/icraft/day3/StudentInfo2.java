@@ -1,12 +1,13 @@
-package craft.employee.Data;
+package com.icraft.day3;
 
 import java.util.Scanner;
 
-public class employee1 {
+public class StudentInfo2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-Scanner in = new Scanner(System.in);
+		
+        Scanner in = new Scanner(System.in);
 		
 		System.out.println("Enter your firstName: ");
 		String firstName = in.next();
@@ -31,8 +32,6 @@ Scanner in = new Scanner(System.in);
 		System.out.println("Student Salary: " + salary);
 		System.out.println("Student Bonus: " + bonus);
 		System.out.println("Student Total salary: " + totalSalary);
-
-
 	}
 
 }
