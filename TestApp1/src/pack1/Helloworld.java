@@ -1,16 +1,22 @@
 package pack1;
 
+import java.util.Scanner;
+
 public class Helloworld {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-int x = 10;
-int y = 20;
-int result;
-result = x + y;
-System.out.println(result);
-System.out.print(y - x);
 
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println(" enter numbet");
+			int x = sc.nextInt();
+
+			if (x % 2 == 0) {
+				System.out.println("the number is even ");
+			} else {
+				System.out.println(" the number is odd");
+			}
+		}
 
 	}
 
