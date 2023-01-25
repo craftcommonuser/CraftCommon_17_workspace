@@ -7,6 +7,7 @@ public class getterStudent {
 	private int age = 45;
 	private String Collage = "Natural Science";
 	
+	
 	public String getFirstName() {
 		return firstName;
 	}
@@ -19,6 +20,5 @@ public class getterStudent {
 	public String getCollage() {
 		return Collage;
 	}
-	
 	
 }

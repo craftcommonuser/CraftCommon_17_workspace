@@ -1,12 +1,14 @@
 package defaultPackage;
 
+import publicPackage.publicDemo;
+
 public class MainDefault {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		defaultDemo m1 = new defaultDemo ();
-		m1.msg();
+		publicDemo m4 = new publicDemo();
+		m4.msg();
 	}
 
 }
