@@ -13,13 +13,13 @@ public class IncreAndDcre {
 	    System.out.println("Value of a: " + a);
 
 	    // increment operator
-	    result1 = ++a;
+	    result1 = ++a; //13
 	    System.out.println("After increment: " + result1);
 
 	    System.out.println("Value of b: " + b);
 
 	    // decrement operator
-	    result2 = --b;
+	    result2 = --b; //11
 	    System.out.println("After decrement: " + result2);
 	  }
 	
