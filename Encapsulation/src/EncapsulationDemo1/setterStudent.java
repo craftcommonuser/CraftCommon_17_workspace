@@ -1,12 +1,14 @@
 package EncapsulationDemo1;
 
 public class setterStudent {
+	
 	private String firstName;
 	private String lastName;
-	private int age;;
-	private String Collage;
+	private int age;
+	private String College;
 	
-	public String getFirstName() {  //method
+	
+	public String getFirstName() {
 		return firstName;
 	}
 	public void setFirstName(String firstName) {
@@ -24,12 +26,12 @@ public class setterStudent {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	public String getCollage() {
-		return Collage;
+	public String getCollege() {
+		return College;
 	}
-	public void setCollage(String collage) {
-		Collage = collage;
+	public void setCollege(String college) {
+		College = college;
 	}
 	
 	
-}
+
