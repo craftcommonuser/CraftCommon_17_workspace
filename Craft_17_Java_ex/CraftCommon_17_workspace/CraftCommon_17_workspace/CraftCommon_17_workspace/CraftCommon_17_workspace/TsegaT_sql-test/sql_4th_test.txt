@@ -1,0 +1,33 @@
+Performing DML
+1. Insert tabel
+-- I modify table column to accept null 
+alter table customers
+modify Cust_Age int null;
+
+-- insert values
+insert into  customers(Cust_ID,Cust_FirstName,Cust_LastName,
+Cust_Gender,Cust_Country,Cust_Salary)
+values(111,'nick','jones','M','USA',20000000),
+ (222,'Antony','Martial','M','France',10000000),
+ (333,'Rose','Geller','M','Uzbekistan',36000000),
+ (444,'Chandler','Bing','M','Unknown',340000000),
+ (555,'Rachel','Green','F','Kazakhistan',400000),
+ (666,'Nick','jones','M','USA',20000000),
+ (777,'Poul','Pogba','M','France',20000000),
+ (888,'Joey','Tribbiani','M','Ethiopia',70000000);
+
+
+2. --update
+-- cust_ID = 333,444,555
+-- country to Ethiopian
+
+update  customers
+set Cust_Country = 'Ethiopia'
+where Cust_ID = 333 or Cust_ID =444 or Cust_ID =555;
+
+3.--Delete
+--cust_name = nick jones
+--which cust_id is 666
+
+delete from customers
+where Cust_ID = 666;

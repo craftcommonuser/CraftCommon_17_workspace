@@ -1,0 +1,67 @@
+1.      Write a query which display all Records from the table?
+
+select * from customers;
+
+2       Write a query which display all columns from the table where  there Citizenship is Ethiopian?
+select * from customers
+where Cust_Country= 'Ethiopia';
+
+3.      Write a query which display all columns from the table where  there Salary greater than 5million?
+select * from customers
+where Cust_Salary > 5000000;
+
+4.       Write a query which display all Male Customers FirstName, LastName and Country?
+select Cust_FirstName,Cust_LastName,Cust_Country from customers
+where Cust_Gender='M';
+
+5.      Write a query which display only distinct Country?
+select distinct Cust_Country
+ from customers;
+
+6       Write a query which display all Female Customers FirstName, LastName and Country in  descending?
+select Cust_FirstName,Cust_LastName,Cust_Country from customers
+where Cust_Gender='F'
+order by Cust_FirstName,Cust_LastName,Cust_Country desc;
+
+7.      Write a query that display all records from the table where Gender female, Here salary is greater than 2million and also Here Citizenship is Ethiopian?
+select * from customers
+where Cust_Gender='F' and Cust_Salary > 2000000 and Cust_Country= 'Ethiopia';
+
+8.       Write a query that display all records from the table where there Citizenship is Ethiopian or uzbekistan?
+select * from customers
+where Cust_Country= 'Ethiopia' or Cust_Country = 'uzbekistan';
+
+9.        Write a query that display Minimum Salary from the table?
+select min(Cust_Salary) as 'Minmum Salary' from customers;
+
+10.      Write a query that display Maximum Fees from the table?
+select Max(Cust_Salary) as 'Maximum Salary' from customers;
+
+11.      Write a query that display Number of Customer We have in the table?
+select count(Cust_ID) as 'Number of Customers' from customers;
+
+12.       Write a query that display Average Salary from the record?
+select Avg(Cust_Salary) as 'Average Salary' from customers;
+
+13.       Write a query that display The sum of all customers Fees?
+select Sum(Cust_Salary) as 'Sum of Salary' from customers;
+
+14.      Write a query that display all the record where there salary is between 2million and 8million?
+select * from customers
+where Cust_Salary between 2000000 and 8000000;
+
+15.      Write a query that display all the record where there firstName start with 'S'?
+select * from customers
+where Cust_FirstName like 's%';
+
+16.       Write a query that display all the record where there firstName have 'e' in the second position and His/er lastName have end with 'e'?
+select * from customers
+where Cust_FirstName like '_e%' and Cust_LastName like '%e';
+
+17.       Write a query that display all the record where there LastName that start with 'p' and ends with 'a'?
+select * from customers
+where  Cust_LastName like 'p%a';
+
+18.      Write a query that display all the customers from Ethiopia, USA and France?
+select * from customers
+where Cust_Country in ('Ethiopia', 'USA' ,'France');

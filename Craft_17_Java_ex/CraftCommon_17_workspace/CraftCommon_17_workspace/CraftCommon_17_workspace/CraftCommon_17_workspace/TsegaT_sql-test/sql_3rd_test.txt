@@ -1,0 +1,42 @@
+ 1. add column Using alter 
+
+            -- Name= bonus
+            -- DataType= Integer
+            -- It doesn't accept null value
+ans
+alter table customers 
+add bonus int not null;
+
+
+2.  modify column using alter
+
+            -- Name = Age
+            -- Datatype = Integer,
+            -- to not accept null value
+alter table customers
+modify Cust_Age int  not null;
+
+
+3. Delete column using alter
+
+            -- Name = NickName
+            -- Name = bonus
+alter table customers
+drop  Cust_NickName, drop bonus ;
+
+4. -- Rename Customers Table to Customer Table
+rename table customers to customer;
+
+5.-- Drop table Customer
+drop table customer;
+
+6.-- Drop DataBase/schema
+drop table customer;
+
+7.-- Again Recreate Schema/DataBase MyDB after we Drop the schema
+
+
+
+
+
+8.-- Again Recreate the table Customers with all of it columns after we Drop the customer table 
