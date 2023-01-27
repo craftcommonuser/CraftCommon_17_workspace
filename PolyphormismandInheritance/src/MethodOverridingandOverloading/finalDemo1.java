@@ -10,7 +10,7 @@ final class Bike{
 		System.out.print("Bike is running safely");
 	}
 }
-class Honda extends Bike{
+class Honda extends Bike{  //error because class Bike is final
 	void run() {
 		System.out.print("Honda bike running safely with 100kmph");
 }
@@ -26,3 +26,6 @@ public class finalDemo1 {
 }
 
 }
+
+
+//super allows us to access the parent class before the override
