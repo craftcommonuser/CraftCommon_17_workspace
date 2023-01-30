@@ -1,7 +1,7 @@
 package MethodOverridingandOverloading;
 
 final class Bike{
-	final int speedLimit = 90;
+	final int speedLimit = 90; //final aka constant
 	final double pi = 3.14;
 	
 	void run() {
