@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Woini
+ *
+ */
+module javasampleproject {
+}
