@@ -18,9 +18,13 @@ public class arthimethicOperator1 {
 		c = a/b;
 		System.out.println("Division: " + c);//5
 		
-//		b = 3;
-//		a = c%b;
-//		System.out.println("Addition: " + c);//1
+		b = 3;
+		c = a%b;
+		System.out.println("Addition: " + c);//1
+		c = ++a;
+		System.out.println("Increment Operators: " + a);//11
+		c = --a;
+		System.out.println("Increment Operators: " + a);//10
 	}
 
 }
