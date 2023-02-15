@@ -11,7 +11,8 @@ public class MainDemoGetter {
 		System.out.println("Student Last Name: " + st.getLastName());
 		System.out.println("Student age: " + st.getAge());
 		System.out.println("Student College: " + st.getCollage());
-		
+	
+	
 		
 		
 	}
