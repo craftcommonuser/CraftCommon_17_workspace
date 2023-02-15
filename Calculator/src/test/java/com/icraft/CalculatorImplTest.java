@@ -2,30 +2,29 @@ package com.icraft;
 
 import static org.junit.Assert.*;
 
+import org.junit.Assert;
 import org.junit.Test;
 
-import junit.framework.Assert;
-
 public class CalculatorImplTest {
-	Calculator calc=new CalculatorImpl();
+Calculator calc= new CalculatorImpl();
 	@Test
-	public void testAdd() {
-		Assert.assertEquals(calc.add(10, 10),20);
-	}
-	
-	@Test
-	public void testMulti() {
-		Assert.assertEquals(calc.multi(10, 10), 100);
+	public void testAddition() {
+		Assert.assertEquals(calc.addition(10,10), 20);
 	}
 
 	@Test
-	public void testSub() {
-		Assert.assertEquals(calc.sub(10, 10), 0);
+	public void testSubtruction() {
+		Assert.assertEquals(calc.subtruction(10,10), 0);
 	}
 
 	@Test
-	public void testDiv() {
-		Assert.assertEquals(calc.div(10, 10), 1.0); 
+	public void testDivision() {
+		Assert.assertEquals(calc.division(10,10), 1);
+	}
+
+	@Test
+	public void testMultiplication() {
+		Assert.assertEquals(calc.multiplication(10,10), 100);
 	}
 
 }

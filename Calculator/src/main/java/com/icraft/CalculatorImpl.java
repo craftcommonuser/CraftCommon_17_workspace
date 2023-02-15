@@ -2,36 +2,36 @@ package com.icraft;
 
 public class CalculatorImpl implements Calculator {
 	
+		
+	
 
-	public int add(int a, int b) {
+	public int addition(int a, int b) {
 		// TODO Auto-generated method stub
 		return a+b;
 	}
 
-	public int multi(int a, int b) {
-		// TODO Auto-generated method stub
-		return a*b;
-	}
-
-	public int sub(int a, int b) {
+	public int subtruction(int a, int b) {
 		// TODO Auto-generated method stub
 		return a-b;
 	}
 
-	public double div(int a, int b) {
+	public int division(int a, int b) {
 		// TODO Auto-generated method stub
 		return a/b;
 	}
 
-	public static void main(String args) {
-		
-		Calculator calc = new CalculatorImpl();
-		
-		System.out.println("Addition "+ calc.add(10, 10));
-		System.out.println("Multiplication "+ calc.multi(10, 10));
-		System.out.println("Subtraction "+ calc.sub(10, 10));
-		System.out.println("Division "+ calc.div(10, 10));
+	public int multiplication(int a, int b) {
+		// TODO Auto-generated method stub
+		return a*b;
 	}
-	  	
+public static void main (String[]args) {
+Calculator calc = new CalculatorImpl();
+System.out.println("Addition "  + calc.addition(10,10));
+System.out.println("Subtruction " + calc.subtruction(10,10));
+System.out.println("Division " + calc.division(10,10));
+System.out.println("Multiplication " + calc.multiplication(10,10));
 
+	}
 }
+	
+

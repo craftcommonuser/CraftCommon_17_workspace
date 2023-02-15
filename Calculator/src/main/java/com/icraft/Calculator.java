@@ -1,14 +1,9 @@
 package com.icraft;
 
 public interface Calculator {
-	
-int add(int a, int b);
-	
-	int multi(int a, int b);
-	
-	int sub(int a, int b);
-	
-	double div(int a, int b);
-
+	public int addition(int a,int b);
+	public int subtruction(int a,int b);
+	public int division(int a,int b);
+	public int multiplication(int a,int b);
 
 }
