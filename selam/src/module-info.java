@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author thoma
- *
- */
-module selam {
-}

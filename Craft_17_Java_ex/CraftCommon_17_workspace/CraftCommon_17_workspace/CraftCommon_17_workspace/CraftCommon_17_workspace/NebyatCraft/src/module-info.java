@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Nebyat
- *
- */
-module NebyatCraft {
-}

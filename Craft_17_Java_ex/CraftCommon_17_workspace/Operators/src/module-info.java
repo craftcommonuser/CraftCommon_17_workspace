@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author meles
- *
- */
-module Operators {
-}

@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author PC
- *
- */
-module craftknowlage {
-}

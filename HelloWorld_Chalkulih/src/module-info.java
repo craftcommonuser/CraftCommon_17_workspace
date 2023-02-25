@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author chalkulihzelalem
- *
- */
-module HelloWorld {
-}

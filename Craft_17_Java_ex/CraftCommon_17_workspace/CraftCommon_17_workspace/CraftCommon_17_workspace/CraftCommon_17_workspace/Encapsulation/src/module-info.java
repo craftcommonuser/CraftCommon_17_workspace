@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author elsha
- *
- */
-module Encapsulation {
-}

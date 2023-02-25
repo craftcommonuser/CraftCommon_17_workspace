@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author beti
- *
- */
-module testjava {
-}

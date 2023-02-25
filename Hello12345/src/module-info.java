@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author amanu
- *
- */
-module Hello {
-}

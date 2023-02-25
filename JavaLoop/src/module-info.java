@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author lulia
- *
- */
-module JavaLoop {
-}
