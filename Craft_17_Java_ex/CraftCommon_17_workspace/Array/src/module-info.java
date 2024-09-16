@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author elsha
+ *
+ */
+module Array {
+}
