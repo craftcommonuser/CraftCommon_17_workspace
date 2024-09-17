@@ -1,0 +1,151 @@
+Short Answer
+
+
+1.   what is Data?
+	Data is a collection of facts, such as numbers, words, measurements, observations or just descriptions of things.
+        A collection of unprocessed items.
+
+
+2.   what is Information?
+         Information is a set of data which is processed in a meaningful way according to the given requirement.
+	
+3.      what is Database(DB)?
+	Storage of organized data that can be accessed, updated, deleted and managed.
+
+ 
+4.      What is the Relation Database Management System(RDBMS)?
+	A system used to maintain relational databases.
+
+
+5.      Define the importance of Relation Database Management System(RDBMS)?
+	 It allows DBMS to maintain access and control data into the database easily.
+
+
+6.     As we all know that there are Two types of Database. Relational Database(SQL) AND Non-Relational DB(NO sql). what is the difference between them.
+		SQL is structured, whereas NoSQL is not.
+
+
+7. 	List examples of Relation Database Management System(RDBMS)?
+		 MYSQL, SQL server and ORACLE 
+
+8.       List examples of Non-Relational DB(Nosql)? 
+		MangoDB, OrientDB
+
+
+9.       Define and Describe is Structured Query Language(SQL)?
+		It’s a standardized language for interacting with RDBMS.
+
+
+10.       List and Describe each of the different subsets of SQL(Mean DDL, DML, DCL, TCL)?
+		Ddl: data definition language that creates, alter, truncate, drop and rename database. It’s also auto-committed.
+		Dml:  data manipulation language that inserts, updates, selects, and delete on the stored data, which isn't auto committed.
+		Dcl: data control language that can give access or revoke to the database.
+		Tcl: transaction control language uses to manage changes that's made by dml.
+
+11.      what is table in Database(DB)?
+		It’s a collection of columns and rows.
+
+
+12.     what is column and Row(tuples) in table?
+		
+		row contains information that describes a single entity while data in a column describes a field of information all entities possess.
+
+
+
+
+EXAM 3
+
+
+
+1.	Write a query which display all Records from the table?
+    Select  * from customer;
+
+
+2       Write a query which display all columns from the table where  there Citizenship is Ethiopian?
+           Select * from customers
+                 Where cust_country in ('Ethiopia');
+
+3.      Write a query which display all columns from the table where  there Salary greater than 5million?
+
+        select * from customers
+               where (cust_salary) >= (5000000);
+
+
+4.       Write a query which display all Male Customers FirstName, LastName and Country?
+select cust_firstname,cust_lastname,cust_country
+from customers
+where cust_gender ='m';
+
+
+5.      Write a query which display only distinct Country?
+
+            SELECT DISTINCT (cust_country) from customers;
+
+
+6       Write a query which display all Female Customers FirstName, LastName and Country in  descending?
+ select cust_firstname,cust_lastname,cust_country
+from customers
+where cust_gender='f'
+order by Cust_FirstName desc;
+
+7.      Write a query that display all records from the table where Gender female, Here salary is greater than 2million and also Here Citizenship is Ethiopian?
+select * from customers
+where cust_age='f' and cust_country='ethiopia' and Cust_Salary>=(2000000);
+
+
+8.       Write a query that display all records from the table where there Citizenship is Ethiopian or uzbekistan?
+
+select * from customers
+where cust_country='ethiopia' or cust_country='uzbekistan';
+
+9.        Write a query that display Minimum Salary from the table?
+select min(Cust_Salary) 
+     from customers;
+
+10.      Write a query that display Maximum Fees from the table?
+ select min(Cust_Salary) 
+           from customers;
+
+
+11.      Write a query that display Number of Customer We have in the table?
+
+         Select count(cust_id) from customers;
+
+12.       Write a query that display Average Salary from the record?
+
+              Select avg(cust_salary) from customers;
+
+
+13.       Write a query that display The sum of all customers Fees?
+          
+                  select sum(cust_salary)from customers;
+          
+
+
+14.      Write a query that display all the record where there salary is between 2million and 8million?
+  
+           select *from customers
+                    where Cust_Salary between '2000000' and '8000000';
+
+
+15.      Write a query that display all the record where there firstName start with 'S'?
+
+            select *from customers
+                    where Cust_FirstName like 's%';
+
+16.       Write a query that display all the record where there firstName have 'e' in the second position and His/er lastName have end with 'e'?
+         
+ select *from customers
+ where Cust_FirstName like '_e%' and  cust_lastname like '%e';
+
+
+17.       Write a query that display all the record where there LastName that start with 'p' and ends with 'a'?
+                                             
+select * from customers
+ where Cust_lastName like 'p%a';
+
+18.      Write a query that display all the customers from Ethiopia, USA and France?
+
+select * from customers
+ where Cust_country in ('ethiopia','usa','france');
+
