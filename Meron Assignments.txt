@@ -1,0 +1,80 @@
+    Lab 1-3
+
+
+  create database MyDB;
+  
+  use mydb;
+  
+  create table customers(
+  `Cust_id` INT NOT NULL unique auto_increment,
+  `Cust_firstname` VARCHAR(20) NOT NULL,
+  `Cust_lastname` VARCHAR(20) NOT NULL,
+  `Cust_nickname` VARCHAR(20) NULL,
+  `Cust_age` INT,
+  `Cust_gender` CHAR(1) NOT NULL,
+  `Cust_country` VARCHAR(20) NOT NULL,
+  `Cust_salary` decimal NOT NULL,
+  PRIMARY KEY (`Cust_id`));
+  
+  desc customers;
+  
+ insert into customers
+  values (111, 'Nick', 'Jones', 'NJ', null, 'M', 'USA', 20000000),
+	 (222, 'Antony', 'Martial', 'AM', null, 'M', 'France', 10000000),
+         (333, 'Ross', 'Geller', 'RG', null, 'M', 'Uzbekistan', 36000000),
+         (444, 'Chandler', 'Bing', 'CB', null, 'M', 'Unknown', 340000000), 
+         (555, 'Rachel', 'Green', 'RG', null, 'F', 'Kazakhistan',400000),
+         (666, 'Nick', 'Jones', 'NJ', null, 'M', 'USA', 20000000),
+         (777, 'Poul', 'Pogba', 'PP', null, 'M', 'France', 20000000), 
+         (888, 'Joey', 'Tribbiani', 'JT', null, 'M', 'Ethiopia', 70000000);
+         
+    desc customers;       
+ 
+update customers
+set cust_country= 'Ethiopia'
+where cust_id in (333, 444, 555);
+
+select * from customers;
+
+delete from customers Nick
+where Cust_id= 666;
+
+alter table customers 
+add bonus int not null;
+
+alter table customers
+modify Cust_age int not null; 
+
+select * from customers;
+
+alter table customers
+drop column cust_nickname;
+
+alter table customers
+drop column bonus;
+
+rename table customers to customer;
+
+drop table customer;
+
+drop database mydb;
+
+
+
+    
+  create database MyDB;
+  
+  use mydb;
+  
+  create table customers(
+  `Cust_id` INT NOT NULL unique auto_increment,
+  `Cust_firstname` VARCHAR(20) NOT NULL,
+  `Cust_lastname` VARCHAR(20) NOT NULL,
+  `Cust_nickname` VARCHAR(20) NULL,
+  `Cust_age` INT,
+  `Cust_gender` CHAR(1) NOT NULL,
+  `Cust_country` VARCHAR(20) NOT NULL,
+  `Cust_salary` decimal NOT NULL,
+  PRIMARY KEY (`Cust_id`));
+  
+  desc customers;
